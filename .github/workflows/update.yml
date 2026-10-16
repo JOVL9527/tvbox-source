@@ -1,0 +1,64 @@
+name: 每日更新 TVBox 直播源 + 点播源
+
+on:
+  schedule:
+    # cron 使用 UTC 时间。22:00 UTC = 次日 06:00 北京时间(UTC+8)
+    # 想换成北京时间 08:00 → 改成 "0 0 * * *"
+    # 一天跑两次(06:00 / 18:00 北京) → "0 22,10 * * *"
+    - cron: "0 22,10 * * *"
+  workflow_dispatch:        # 支持在 Actions 页面手动点「Run workflow」
+  push:
+    branches: [main]
+    paths:
+      - "config.ini"
+      - "config/**"
+      - "tvbox_builder.py"
+      - ".github/workflows/update.yml"
+
+# 允许 Action 把更新后的结果提交回仓库
+permissions:
+  contents: write
+
+# 同一时间只跑一个，避免两次提交打架
+concurrency:
+  group: tvbox-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+
+      - name: 安装 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # 本工具只依赖标准库，这里不需要 pip install 任何东西
+      - name: 执行抓取与校验（直播测速 + 点播聚合）
+        run: python tvbox_builder.py -c config.ini
+
+      - name: 查看产出概览
+        run: |
+          echo "---- report.json ----"
+          cat output/report.json
+          echo "---- 直播 result.txt 前 20 行 ----"
+          head -n 20 output/result.txt
+          echo "---- 点播 sites.json 站点数 / spider ----"
+          python -c "import json;d=json.load(open('output/sites.json',encoding='utf-8'));print('sites =',len(d['sites']));print('spider =',d['spider']);print('parses =',len(d['parses']))"
+
+      - name: 提交更新结果
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A output/ config/
+          if git diff --staged --quiet; then
+            echo "结果无变化，跳过提交"
+          else
+            git commit -m "chore(auto): 更新直播源 $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
