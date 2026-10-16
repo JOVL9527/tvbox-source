@@ -1,0 +1,37 @@
+# =============================================================================
+# 点播源聚合来源 —— 公开 TVBox 配置(JSON / JSONC)
+# -----------------------------------------------------------------------------
+# 本工具会逐个抓取这些配置，从中提取四样东西并跨源合并：
+#   sites   —— 点播资源站（影视接口）
+#   spider  —— 爬虫包地址（csp_ / js 类站点必须依赖它），按「出现次数最多」自动选出
+#   parses  —— 播放解析接口，去重后合并
+#   flags   —— 播放线路标记，去重后合并
+#
+# 每行一个地址，# 开头为注释。建议保留 5~7 个「更新活跃 + 站点质量高」的来源，
+# 来源越多重复率越高、耗时也越长。
+# 以下均已在 2026-10-16 实测：HTTP 200 且可被解析（含 JSONC 注释写法）。
+# 工具已支持：BOM、// 与 /* */ 注释、尾部多余逗号；遇到加密配置会自动跳过并告警。
+# =============================================================================
+
+# ---------- qist/tvbox —— 站点最全，CMS 采集接口也多 ----------
+# jsm 是主力配置，154 个站点
+https://raw.githubusercontent.com/qist/tvbox/master/jsm.json
+# 电视向配置，含大量直播+点播混合站点
+https://raw.githubusercontent.com/qist/tvbox/master/dianshi.json
+# 大而全的合集配置
+https://raw.githubusercontent.com/qist/tvbox/master/367.json
+# 轻量配置，JSONC 写法（用于验证注释兼容）
+https://raw.githubusercontent.com/qist/tvbox/master/XYQ.json
+
+# ---------- gaotianliuyun/gao —— 经典配置，稳定性好 ----------
+# 站点质量高，86 个
+https://raw.githubusercontent.com/gaotianliuyun/gao/master/0821.json
+# js 源为主，站点数最多（近 300）
+https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json
+
+# ---------- 可选：自己再补 ----------
+# 任何标准 TVBox 配置 JSON 都可以放进来，例如你自己维护的私有配置：
+# https://your-domain.com/my-tvbox.json
+#
+# 注意：加密/混淆的配置（形如 https://raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json）
+# 内容是十六进制串，本工具无法解析，加入也不会产生任何站点，已默认不启用。

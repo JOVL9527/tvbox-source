@@ -1,0 +1,66 @@
+# =============================================================================
+# 订阅源清单 —— 每行一个地址，# 开头为注释行，空行忽略
+# 语法：<地址> [UA="自定义UA"] [REFERER="https://xxx/"]
+#
+# 格式说明：
+#   .m3u / .m3u8  → 按 #EXTINF 解析，能拿到 tvg-name / tvg-logo / group-title
+#   .txt          → 按「频道名,地址」解析，一个频道多个地址用 # 分隔
+#
+# 时效性提示：公开源随时可能失效，建议每季度复查一次本文件。
+# 下面标注 [已验证 2026-10-16] 的地址均已实测 HTTP 200 且有内容。
+# =============================================================================
+
+# ---------- 一、已校验可用（推荐保留） --------------------------------------
+
+# 1. Guovin/TV 每日自动更新的聚合结果，央视+卫视+地方台覆盖最全，质量最稳
+#    [已验证 2026-10-16] 200 / 16KB
+https://raw.githubusercontent.com/Guovin/TV/gd/output/result.txt
+
+# 2. bestK/iptv 每小时检测一次，540+ 频道，含分类与港澳台
+#    [已验证 2026-10-16] 200 / 45KB
+https://raw.githubusercontent.com/bestK/iptv/main/iptv.txt
+
+# 3. YueChan/Live —— 老牌精选源，画质偏高
+#    [已验证 2026-10-16] 200 / 33KB
+https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u
+
+# 4. YanG-1989/m3u Gather 合集
+#    [已验证 2026-10-16] 200 / 26KB
+https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u
+
+# 5. suxuang/myIPTV IPv4 源
+#    [已验证 2026-10-16] 200 / 47KB
+https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u
+
+# 6. vbskycn/iptv IPv4 源
+#    [已验证 2026-10-16] 200 / 30KB
+https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.txt
+
+# 7. iptv-org 官方整理的国内频道列表（含大量境外中转，质量参差但量大）
+#    [已验证 2026-10-16] 200 / 60KB
+https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u
+
+# 8. 一条不易失联的备用源，需要 UA
+#    [已验证 2026-10-16] 200 / 25KB
+https://m3u.ibert.me/txt/o_cn.txt UA="okhttp/Mursor-1.4.0.0"
+
+# 9. 纯 IPv6 精选（ipv_type 需为 ipv6 或 all 才会被保留）
+#    [已验证 2026-10-16] 200 / 15KB
+https://m3u.ibert.me/txt/fmml_ipv6.txt
+
+# 10. peterH 的央视频道 IPv4 源
+#     [已验证 2026-10-16] 200 / 5KB
+https://peterhchina.github.io/iptv/CCTV-V4.m3u
+
+# ---------- 二、候选源（本轮实测未能连通，放在这里供你自行验证） -----------
+# 说明：以下地址在本次检测中返回失败，可能是临时故障、地域限制或需要代理。
+# 取消行首的 # 即可启用，建议先单独 curl 一下再决定是否长期保留。
+
+# https://live.zbds.top/tv/iptv4.txt
+# https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/others_output.txt
+# https://raw.githubusercontent.com/hujingguang/ChinaIPTV/main/cnTV_AutoUpdate.m3u8
+
+# ---------- 三、白名单（抓到的地址不参与测速，永远排在结果最前面） ---------
+[WHITELIST]
+# 自行补充，例如你自建的稳定源：
+# https://your-domain.com/my-stable.m3u

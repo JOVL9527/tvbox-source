@@ -1,0 +1,47 @@
+[2026-10-16 16:34:17] [INFO] ===== TVBox 聚合工具 v1.0.0 启动 =====
+[2026-10-16 16:34:17] [INFO] ipv_type=ipv4  urls_limit=5  workers=16  min_resolution=0
+[2026-10-16 16:34:17] [INFO] 黑名单加载完成：域名 15 条 / 关键字 12 条
+[2026-10-16 16:34:17] [INFO] 频道菜单加载完成：13 个分类 -> ['CCTV', '卫视', '地方台', '港澳台', '体育', '影视', '少儿', '纪录', '音乐', '财经', '教育', '国际', '其他']
+[2026-10-16 16:34:17] [INFO] 订阅源合计 10 个（已按地址去重）
+[2026-10-16 16:34:45] [WARN]   ↳ 使用 CDN 回退成功：https://gh-proxy.com/
+[2026-10-16 16:34:45] [INFO] [1/10]  1634 条 <- https://raw.githubusercontent.com/Guovin/TV/gd/output/result.txt
+[2026-10-16 16:34:54] [INFO] [2/10]   541 条 <- https://raw.githubusercontent.com/bestK/iptv/main/iptv.txt
+[2026-10-16 16:35:09] [INFO] [3/10]    96 条 <- https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u
+[2026-10-16 16:35:13] [INFO] [4/10]   123 条 <- https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u
+[2026-10-16 16:35:42] [WARN]   ↳ 使用 CDN 回退成功：https://gh-proxy.com/
+[2026-10-16 16:35:42] [INFO] [5/10]  1225 条 <- https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u
+[2026-10-16 16:35:52] [INFO] [6/10]   717 条 <- https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.txt
+[2026-10-16 16:36:08] [INFO] [7/10]   508 条 <- https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u
+[2026-10-16 16:36:08] [INFO] [8/10]   146 条 <- https://m3u.ibert.me/txt/o_cn.txt
+[2026-10-16 16:36:09] [INFO] [9/10]    82 条 <- https://m3u.ibert.me/txt/fmml_ipv6.txt
+[2026-10-16 16:36:09] [INFO] [10/10]    26 条 <- https://peterhchina.github.io/iptv/CCTV-V4.m3u
+[2026-10-16 16:36:09] [INFO] 模板 demo.txt：声明 53 个频道，其中 0 条自带地址
+[2026-10-16 16:36:09] [INFO] 本地源 local.txt 载入 3 条
+[2026-10-16 16:36:09] [INFO] 原始条目合计 5101 条
+[2026-10-16 16:36:09] [INFO] 过滤后 3579 条（丢弃：{'黑名单': 22, '重复URL': 1380, '协议不符': 120}）
+[2026-10-16 16:36:09] [WARN] 候选数超上限，按来源轮流取样后截断至 500 条
+[2026-10-16 16:36:09] [INFO] 开始测速校验，16 线程，单源超时 4s ...
+[2026-10-16 16:36:25] [INFO]   进度 200/500，有效 63
+[2026-10-16 16:36:46] [INFO]   进度 400/500，有效 121
+[2026-10-16 16:37:01] [INFO] 测速完成：有效 155 / 500 条
+[2026-10-16 16:37:01] [INFO] 模板频道命中 26/53，未命中 27 个（多为本轮未抓到可用地址）
+[2026-10-16 16:37:01] [WARN]   未命中示例：CCTV-17 农业农村、北京卫视、山东卫视、湖北卫视、四川卫视、河南卫视、天津卫视、江西卫视、贵州卫视、北京新闻、上海新闻综合、广州综合
+[2026-10-16 16:37:01] [INFO] 最终产出 92 个频道，共 150 条有效地址
+[2026-10-16 16:37:01] [INFO] 开始聚合点播源（sites / spider / parses / flags）...
+[2026-10-16 16:37:15] [INFO]   [1/6] sites  154 / parses  28 <- jsm.json
+[2026-10-16 16:37:28] [INFO]   [2/6] sites  155 / parses  28 <- dianshi.json
+[2026-10-16 16:37:30] [INFO]   [3/6] sites  106 / parses   0 <- 367.json
+[2026-10-16 16:37:33] [INFO]   [4/6] sites   49 / parses   8 <- XYQ.json
+[2026-10-16 16:37:35] [INFO]   [5/6] sites   86 / parses  10 <- 0821.json
+[2026-10-16 16:37:37] [INFO]   [6/6] sites  298 / parses  10 <- js.json
+[2026-10-16 16:37:37] [INFO]   手工点播源 5 条（优先保留）
+[2026-10-16 16:37:37] [INFO]   校验 14 个 CMS 点播接口（ac=list）...
+[2026-10-16 16:37:39] [INFO]   CMS 接口有效 7 / 14，丢弃 7 个失效接口
+[2026-10-16 16:37:39] [WARN]   点播源超过上限，截断至 150 条
+[2026-10-16 16:37:39] [INFO]   自动选定 spider（2 个来源一致）：https://raw.githubusercontent.com/qist/tvbox/master/jar/spider.jar;md5;bca2498f2d40c694b285471062748cf0
+[2026-10-16 16:37:39] [INFO] 点播源合计 150 条（type 分布 {1: 12, 3: 137, 0: 1}），parses 33 条，flags 0 条
+[2026-10-16 16:37:39] [INFO] spider = https://raw.githubusercontent.com/qist/tvbox/master/jar/spider.jar;md5;bca2498f2d40c694b285471062748cf0
+[2026-10-16 16:37:39] [INFO] 已生成 output\result.txt
+[2026-10-16 16:37:39] [INFO] 已生成 output\result.m3u
+[2026-10-16 16:37:39] [INFO] 已生成 output\source.json（直播 92 频道 / 点播 150 站）
+[2026-10-16 16:37:39] [INFO] 已生成 output\sites.json

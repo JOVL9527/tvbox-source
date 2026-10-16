@@ -1,0 +1,41 @@
+{
+  "run_at": "2026-10-16 16:37:39",
+  "elapsed_sec": 201.8,
+  "live": {
+    "raw": 5101,
+    "after_filter": 500,
+    "verified": 155,
+    "channels": 92,
+    "streams_out": 150,
+    "sources_ok": 10,
+    "sources_failed": [],
+    "category_counts": {
+      "CCTV": 20,
+      "卫视": 19,
+      "地方台": 13,
+      "纪录": 1,
+      "财经": 1,
+      "教育": 1,
+      "其他": 37
+    },
+    "hit_rate": "155/500"
+  },
+  "vod": {
+    "sites_out": 150,
+    "type_counts": {
+      "0": 1,
+      "1": 12,
+      "3": 137
+    },
+    "spider": "https://raw.githubusercontent.com/qist/tvbox/master/jar/spider.jar;md5;bca2498f2d40c694b285471062748cf0",
+    "parses": 33,
+    "flags": 0,
+    "sources_ok": 6,
+    "sources_failed": 0,
+    "raw": 848,
+    "dup": 326,
+    "blacklist": 0,
+    "cms_dead": 7,
+    "cms_alive": 7
+  }
+}

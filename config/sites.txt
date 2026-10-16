@@ -1,0 +1,31 @@
+# =============================================================================
+# 手工点播源（非直播）—— 优先于自动聚合结果，永远排在 sites 数组最前面
+# -----------------------------------------------------------------------------
+# 每行两种写法，任选：
+#   写法一：名称,type,api[,ext]
+#   写法二：一行完整 JSON（把 TVBox 配置里的 site 对象原样贴进来）
+#
+# type 说明：
+#   1 = CMS JSON 采集接口（苹果CMS 风格）→ 本工具会做 ac=list 真校验
+#   3 = 内置 csp_XXX / js 源 → 依赖 spider 爬虫包，不做 HTTP 校验
+#   0 = 爬虫/嗅探源 → 同样依赖 spider
+#
+# ⚠️ 只有 type=1 且 URL 以 api.php/provide/vod/ 结尾的接口能被独立校验。
+#    下面的都已在 2026-10-16 实测：?ac=list 返回标准 JSON（含 class 分类列表）。
+# =============================================================================
+
+# ---- 实测可用的公开 CMS 采集接口 ----
+电影天堂采集,1,https://caiji.dyttzyapi.com/api.php/provide/vod/
+最大资源,1,https://api.zuidapi.com/api.php/provide/vod/
+非凡资源,1,https://api.ffzyapi.com/api.php/provide/vod/
+光速资源,1,https://api.guangsuapi.com/api.php/provide/vod/
+无尽资源,1,https://api.wujinapi.me/api.php/provide/vod/
+
+# ---- 写法二示例：直接贴 JSON ----
+# {"key":"mysite","name":"我的私有接口","type":1,"api":"https://my-domain.com/api.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1}
+
+# ---- 本轮未连通、供你自行复验的接口（默认注释） ----
+# json.heimuer.xyz（返回 302 跳转，需要跟随重定向或换域名）
+# cj.lziapi.com / api.wwzy.tv / collect.wolongzyw.com / cj.ukuapi.com
+# api.bfzyapi.com / api.tiankongapi.com / api.maotaizy.cc / api.douubi.tv
+# api.1080zyku.com / api.apibdzy.com / cj.rycjapi.com
