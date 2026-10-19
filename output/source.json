@@ -1,7 +1,7 @@
 {
   "name": "我的 TVBox 配置源",
-  "version": "2026-10-19 14:31:43",
-  "update_time": "2026-10-19 14:31:43",
+  "version": "2026-10-19 14:41:42",
+  "update_time": "2026-10-19 14:41:42",
   "spider": "https://raw.githubusercontent.com/qist/tvbox/master/jar/spider.jar;md5;bbb5214a2ba3724821c5f8d2db5071dc",
   "sites": [
     {
@@ -50,15 +50,6 @@
       "filterable": 1
     },
     {
-      "key": "非凡",
-      "name": "影视 • 非凡[直连]",
-      "type": 1,
-      "api": "http://ffzy.tv/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "量子",
       "name": "影视 • 量子[直连]",
       "type": 1,
@@ -86,15 +77,6 @@
       "filterable": 0
     },
     {
-      "key": "率率",
-      "name": "影视 • 率率[直连]",
-      "type": 1,
-      "api": "https://suoniapi.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "天涯采集",
       "name": "影视 • 天涯",
       "type": 1,
@@ -103,6 +85,15 @@
       "quickSearch": 1,
       "filterable": 1,
       "playerType": 2
+    },
+    {
+      "key": "率率",
+      "name": "影视 • 率率[直连]",
+      "type": 1,
+      "api": "https://suoniapi.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
     },
     {
       "key": "U酷资源風",
@@ -1430,19 +1421,30 @@
       "quickSearch": 1,
       "filterable": 0,
       "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;b752cad81649bf070c934c423c3a1b86"
+    },
+    {
+      "key": "cloudLJ",
+      "name": "🐋天翼雷鲸┃4K弹幕",
+      "type": 3,
+      "api": "csp_PanWebShareCloudLJ",
+      "searchable": 0,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "http://我不是.摸鱼儿.top/json/lj.json",
+      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;b752cad81649bf070c934c423c3a1b86"
     }
   ],
   "lives": [
     {
       "name": "电视直播(TXT)",
       "type": 0,
-      "url": "output/result.txt",
+      "url": "publish_base_url = https://raw.githubusercontent.com/JOVL9527/tvbox-source/main/output/result.txt",
       "playerType": 1
     },
     {
       "name": "电视直播(M3U)",
       "type": 0,
-      "url": "output/result.m3u",
+      "url": "publish_base_url = https://raw.githubusercontent.com/JOVL9527/tvbox-source/main/output/result.m3u",
       "playerType": 1
     }
   ],
@@ -1654,8 +1656,8 @@
     "其他"
   ],
   "stats": {
-    "channels": 708,
-    "streams": 1044,
+    "channels": 694,
+    "streams": 1023,
     "sites": 150,
     "sources_ok": 10,
     "sources_failed": 0
