@@ -1,7 +1,7 @@
 {
   "name": "我的 TVBox 配置源",
-  "version": "2026-10-19 14:41:42",
-  "update_time": "2026-10-19 14:41:42",
+  "version": "2026-10-19 15:02:14",
+  "update_time": "2026-10-19 15:02:14",
   "spider": "https://raw.githubusercontent.com/qist/tvbox/master/jar/spider.jar;md5;bbb5214a2ba3724821c5f8d2db5071dc",
   "sites": [
     {
@@ -50,10 +50,10 @@
       "filterable": 1
     },
     {
-      "key": "量子",
-      "name": "影视 • 量子[直连]",
+      "key": "率率",
+      "name": "影视 • 率率[直连]",
       "type": 1,
-      "api": "https://cj.lziapi.com/api.php/provide/vod/",
+      "api": "https://suoniapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -63,6 +63,15 @@
       "name": "影视 • 极速[直连]",
       "type": 1,
       "api": "https://jszyapi.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "量子",
+      "name": "影视 • 量子[直连]",
+      "type": 1,
+      "api": "https://cj.lziapi.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -87,10 +96,10 @@
       "playerType": 2
     },
     {
-      "key": "率率",
-      "name": "影视 • 率率[直连]",
+      "key": "暴風",
+      "name": "影视 • 暴風[直连]",
       "type": 1,
-      "api": "https://suoniapi.com/api.php/provide/vod/?ac=list",
+      "api": "https://bfzyapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -115,10 +124,10 @@
       "playerType": 2
     },
     {
-      "key": "暴風",
-      "name": "影视 • 暴風[直连]",
+      "key": "非凡",
+      "name": "影视 • 非凡[直连]",
       "type": 1,
-      "api": "https://bfzyapi.com/api.php/provide/vod/?ac=list",
+      "api": "http://ffzy.tv/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -1421,17 +1430,6 @@
       "quickSearch": 1,
       "filterable": 0,
       "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;b752cad81649bf070c934c423c3a1b86"
-    },
-    {
-      "key": "cloudLJ",
-      "name": "🐋天翼雷鲸┃4K弹幕",
-      "type": 3,
-      "api": "csp_PanWebShareCloudLJ",
-      "searchable": 0,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "http://我不是.摸鱼儿.top/json/lj.json",
-      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;b752cad81649bf070c934c423c3a1b86"
     }
   ],
   "lives": [
@@ -1656,8 +1654,8 @@
     "其他"
   ],
   "stats": {
-    "channels": 694,
-    "streams": 1023,
+    "channels": 691,
+    "streams": 1018,
     "sites": 150,
     "sources_ok": 10,
     "sources_failed": 0
