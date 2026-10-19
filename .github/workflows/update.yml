@@ -60,5 +60,6 @@ jobs:
             echo "结果无变化，跳过提交"
           else
             git commit -m "chore(auto): 更新直播源 $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git pull --rebase origin main
             git push
           fi
