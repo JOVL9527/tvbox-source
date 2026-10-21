@@ -1,7 +1,7 @@
 {
   "name": "我的 TVBox 配置源",
-  "version": "2026-10-20 22:36:16",
-  "update_time": "2026-10-20 22:36:16",
+  "version": "2026-10-21 08:16:20",
+  "update_time": "2026-10-21 08:16:20",
   "spider": "https://raw.githubusercontent.com/qist/tvbox/master/jar/spider.jar;md5;4a35e9a49f5872ea0a4358e5424e657a",
   "sites": [
     {
@@ -50,19 +50,19 @@
       "filterable": 1
     },
     {
-      "key": "率率",
-      "name": "影视 • 率率[直连]",
+      "key": "非凡",
+      "name": "影视 • 非凡[直连]",
       "type": 1,
-      "api": "https://suoniapi.com/api.php/provide/vod/?ac=list",
+      "api": "http://ffzy.tv/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
     },
     {
-      "key": "非凡",
-      "name": "影视 • 非凡[直连]",
+      "key": "U酷资源風",
+      "name": "影视 • 尤酷[直连]",
       "type": 1,
-      "api": "http://ffzy.tv/api.php/provide/vod/",
+      "api": "https://api.ukuapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -77,10 +77,20 @@
       "filterable": 1
     },
     {
-      "key": "量子",
-      "name": "影视 • 量子[直连]",
+      "key": "天涯采集",
+      "name": "影视 • 天涯",
       "type": 1,
-      "api": "https://cj.lziapi.com/api.php/provide/vod/",
+      "api": "http://tyyszy.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2
+    },
+    {
+      "key": "率率",
+      "name": "影视 • 率率[直连]",
+      "type": 1,
+      "api": "https://suoniapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -95,14 +105,13 @@
       "filterable": 0
     },
     {
-      "key": "天涯采集",
-      "name": "影视 • 天涯",
+      "key": "量子",
+      "name": "影视 • 量子[直连]",
       "type": 1,
-      "api": "http://tyyszy.com/api.php/provide/vod",
+      "api": "https://cj.lziapi.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
-      "playerType": 2
+      "filterable": 1
     },
     {
       "key": "建安采集",
@@ -113,15 +122,6 @@
       "quickSearch": 1,
       "filterable": 1,
       "playerType": 2
-    },
-    {
-      "key": "U酷资源風",
-      "name": "影视 • 尤酷[直连]",
-      "type": 1,
-      "api": "https://api.ukuapi.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
     },
     {
       "key": "暴風",
@@ -1654,8 +1654,8 @@
     "其他"
   ],
   "stats": {
-    "channels": 681,
-    "streams": 998,
+    "channels": 705,
+    "streams": 1023,
     "sites": 150,
     "sources_ok": 10,
     "sources_failed": 0
