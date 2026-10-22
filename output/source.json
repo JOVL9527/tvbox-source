@@ -1,8 +1,8 @@
 {
   "name": "我的 TVBox 配置源",
-  "version": "2026-10-22 08:20:16",
-  "update_time": "2026-10-22 08:20:16",
-  "spider": "https://raw.githubusercontent.com/qist/tvbox/master/jar/spider.jar;md5;4a35e9a49f5872ea0a4358e5424e657a",
+  "version": "2026-10-22 22:47:26",
+  "update_time": "2026-10-22 22:47:26",
+  "spider": "https://raw.githubusercontent.com/qist/tvbox/master/jar/spider.jar;md5;ea98a70ee6967e433c24e4941ede7fd8",
   "sites": [
     {
       "key": "电影天堂采集",
@@ -59,20 +59,19 @@
       "filterable": 1
     },
     {
-      "key": "天涯采集",
-      "name": "影视 • 天涯",
-      "type": 1,
-      "api": "http://tyyszy.com/api.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "playerType": 2
-    },
-    {
       "key": "量子",
       "name": "影视 • 量子[直连]",
       "type": 1,
       "api": "https://cj.lziapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "率率",
+      "name": "影视 • 率率[直连]",
+      "type": 1,
+      "api": "https://suoniapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -87,13 +86,14 @@
       "filterable": 0
     },
     {
-      "key": "率率",
-      "name": "影视 • 率率[直连]",
+      "key": "天涯采集",
+      "name": "影视 • 天涯",
       "type": 1,
-      "api": "https://suoniapi.com/api.php/provide/vod/?ac=list",
+      "api": "http://tyyszy.com/api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "playerType": 2
     },
     {
       "key": "极速资源",
@@ -103,16 +103,6 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
-    },
-    {
-      "key": "建安采集",
-      "name": "影视 • 建安",
-      "type": 1,
-      "api": "http://154.219.117.232:9981/jacloudapi.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "playerType": 2
     },
     {
       "key": "U酷资源風",
@@ -131,6 +121,16 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
+    },
+    {
+      "key": "建安采集",
+      "name": "影视 • 建安",
+      "type": 1,
+      "api": "http://154.219.117.232:9981/jacloudapi.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2
     },
     {
       "key": "drpy_js_豆瓣",
@@ -984,6 +984,15 @@
       "filterable": 1
     },
     {
+      "key": "球通体育",
+      "name": "球通 • 体育",
+      "type": 3,
+      "api": "csp_SportQiutong",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1
+    },
+    {
       "key": "呦呦DJ",
       "name": "呦呦 • DJ",
       "type": 3,
@@ -1420,16 +1429,6 @@
       "filterable": 0,
       "ext": "http://我不是.摸鱼儿.top/json/yyds.json",
       "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;b752cad81649bf070c934c423c3a1b86"
-    },
-    {
-      "key": "QuarkTZ",
-      "name": "✊️团长网盘┃4K弹幕",
-      "type": 3,
-      "api": "csp_PanWebTz",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;b752cad81649bf070c934c423c3a1b86"
     }
   ],
   "lives": [
@@ -1654,8 +1653,8 @@
     "其他"
   ],
   "stats": {
-    "channels": 670,
-    "streams": 993,
+    "channels": 686,
+    "streams": 1007,
     "sites": 150,
     "sources_ok": 10,
     "sources_failed": 0
