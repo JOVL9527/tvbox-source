@@ -1,58 +1,58 @@
-[2026-10-22 14:44:28] [INFO] ===== TVBox 聚合工具 v1.0.0 启动 =====
-[2026-10-22 14:44:28] [INFO] ipv_type=ipv4  urls_limit=5  workers=48  min_resolution=0
-[2026-10-22 14:44:28] [INFO] 黑名单加载完成：域名 15 条 / 关键字 12 条
-[2026-10-22 14:44:28] [INFO] 频道菜单加载完成：13 个分类 -> ['CCTV', '卫视', '地方台', '港澳台', '体育', '影视', '少儿', '纪录', '音乐', '财经', '教育', '国际', '其他']
-[2026-10-22 14:44:28] [INFO] 订阅源合计 10 个（已按地址去重）
-[2026-10-22 14:44:28] [INFO] [1/10]  1634 条 <- https://raw.githubusercontent.com/Guovin/TV/gd/output/result.txt
-[2026-10-22 14:44:28] [INFO] [2/10]   541 条 <- https://raw.githubusercontent.com/bestK/iptv/main/iptv.txt
-[2026-10-22 14:44:28] [INFO] [3/10]    96 条 <- https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u
-[2026-10-22 14:44:28] [INFO] [4/10]   123 条 <- https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u
-[2026-10-22 14:44:29] [INFO] [5/10]  1225 条 <- https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u
-[2026-10-22 14:44:29] [INFO] [6/10]   698 条 <- https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.txt
-[2026-10-22 14:44:29] [INFO] [7/10]   511 条 <- https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u
-[2026-10-22 14:44:29] [INFO] [8/10]   148 条 <- https://m3u.ibert.me/txt/o_cn.txt
-[2026-10-22 14:44:29] [INFO] [9/10]    82 条 <- https://m3u.ibert.me/txt/fmml_ipv6.txt
-[2026-10-22 14:44:30] [INFO] [10/10]    27 条 <- https://peterhchina.github.io/iptv/CCTV-V4.m3u
-[2026-10-22 14:44:30] [INFO] 模板 demo.txt：声明 53 个频道，其中 0 条自带地址
-[2026-10-22 14:44:30] [INFO] 本地源 local.txt 载入 3 条
-[2026-10-22 14:44:30] [INFO] 原始条目合计 5088 条
-[2026-10-22 14:44:30] [INFO] 过滤后 3576 条（丢弃：{'黑名单': 22, '重复URL': 1370, '协议不符': 120}）
-[2026-10-22 14:44:30] [WARN] 候选数超上限，按来源轮流取样后截断至 3000 条
-[2026-10-22 14:44:30] [INFO] 开始测速校验，48 线程，单源超时 4s ...
-[2026-10-22 14:44:37] [INFO]   进度 200/3000，有效 69
-[2026-10-22 14:44:48] [INFO]   进度 400/3000，有效 120
-[2026-10-22 14:44:58] [INFO]   进度 600/3000，有效 189
-[2026-10-22 14:45:06] [INFO]   进度 800/3000，有效 238
-[2026-10-22 14:45:12] [INFO]   进度 1000/3000，有效 336
-[2026-10-22 14:45:19] [INFO]   进度 1200/3000，有效 434
-[2026-10-22 14:45:24] [INFO]   进度 1400/3000，有效 539
-[2026-10-22 14:45:31] [INFO]   进度 1600/3000，有效 652
-[2026-10-22 14:45:42] [INFO]   进度 1800/3000，有效 715
-[2026-10-22 14:45:52] [INFO]   进度 2000/3000，有效 758
-[2026-10-22 14:46:09] [INFO]   进度 2200/3000，有效 806
-[2026-10-22 14:46:18] [INFO]   进度 2400/3000，有效 909
-[2026-10-22 14:46:28] [INFO]   进度 2600/3000，有效 957
-[2026-10-22 14:46:40] [INFO]   进度 2800/3000，有效 972
-[2026-10-22 14:47:25] [INFO]   进度 3000/3000，有效 1027
-[2026-10-22 14:47:25] [INFO] 测速完成：有效 1027 / 3000 条
-[2026-10-22 14:47:25] [INFO] 模板频道命中 42/53，未命中 11 个（多为本轮未抓到可用地址）
-[2026-10-22 14:47:25] [WARN]   未命中示例：上海新闻综合、深圳都市、佛山公共、凤凰卫视中文台、凤凰卫视资讯台、五星体育、劲爆体育、CHC动作电影、淘剧场、金鹰卡通、嘉佳卡通
-[2026-10-22 14:47:25] [INFO] 最终产出 686 个频道，共 1007 条有效地址
-[2026-10-22 14:47:25] [INFO] 开始聚合点播源（sites / spider / parses / flags）...
-[2026-10-22 14:47:25] [INFO]   [1/6] sites  153 / parses  28 <- jsm.json
-[2026-10-22 14:47:25] [INFO]   [2/6] sites  154 / parses  28 <- dianshi.json
-[2026-10-22 14:47:25] [INFO]   [3/6] sites  106 / parses   0 <- 367.json
-[2026-10-22 14:47:25] [INFO]   [4/6] sites   49 / parses   8 <- XYQ.json
-[2026-10-22 14:47:25] [INFO]   [5/6] sites   86 / parses  10 <- 0821.json
-[2026-10-22 14:47:25] [INFO]   [6/6] sites  298 / parses  10 <- js.json
-[2026-10-22 14:47:25] [INFO]   手工点播源 5 条（优先保留）
-[2026-10-22 14:47:25] [INFO]   校验 14 个 CMS 点播接口（ac=list）...
-[2026-10-22 14:47:26] [INFO]   CMS 接口有效 9 / 14，丢弃 5 个失效接口
-[2026-10-22 14:47:26] [WARN]   点播源超过上限，截断至 150 条
-[2026-10-22 14:47:26] [INFO]   自动选定 spider（2 个来源一致）：https://raw.githubusercontent.com/qist/tvbox/master/jar/spider.jar;md5;ea98a70ee6967e433c24e4941ede7fd8
-[2026-10-22 14:47:26] [INFO] 点播源合计 150 条（type 分布 {1: 14, 3: 135, 0: 1}），parses 33 条，flags 0 条
-[2026-10-22 14:47:26] [INFO] spider = https://raw.githubusercontent.com/qist/tvbox/master/jar/spider.jar;md5;ea98a70ee6967e433c24e4941ede7fd8
-[2026-10-22 14:47:26] [INFO] 已生成 output/result.txt
-[2026-10-22 14:47:26] [INFO] 已生成 output/result.m3u
-[2026-10-22 14:47:26] [INFO] 已生成 output/source.json（直播 686 频道 / 点播 150 站）
-[2026-10-22 14:47:26] [INFO] 已生成 output/sites.json
+[2026-10-23 00:14:05] [INFO] ===== TVBox 聚合工具 v1.0.0 启动 =====
+[2026-10-23 00:14:05] [INFO] ipv_type=ipv4  urls_limit=5  workers=48  min_resolution=0
+[2026-10-23 00:14:05] [INFO] 黑名单加载完成：域名 15 条 / 关键字 12 条
+[2026-10-23 00:14:05] [INFO] 频道菜单加载完成：13 个分类 -> ['CCTV', '卫视', '地方台', '港澳台', '体育', '影视', '少儿', '纪录', '音乐', '财经', '教育', '国际', '其他']
+[2026-10-23 00:14:05] [INFO] 订阅源合计 10 个（已按地址去重）
+[2026-10-23 00:14:05] [INFO] [1/10]  1634 条 <- https://raw.githubusercontent.com/Guovin/TV/gd/output/result.txt
+[2026-10-23 00:14:05] [INFO] [2/10]   541 条 <- https://raw.githubusercontent.com/bestK/iptv/main/iptv.txt
+[2026-10-23 00:14:06] [INFO] [3/10]    96 条 <- https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u
+[2026-10-23 00:14:06] [INFO] [4/10]   123 条 <- https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u
+[2026-10-23 00:14:06] [INFO] [5/10]  1225 条 <- https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u
+[2026-10-23 00:14:06] [INFO] [6/10]   188 条 <- https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.txt
+[2026-10-23 00:14:06] [INFO] [7/10]   511 条 <- https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u
+[2026-10-23 00:14:06] [INFO] [8/10]   148 条 <- https://m3u.ibert.me/txt/o_cn.txt
+[2026-10-23 00:14:06] [INFO] [9/10]    82 条 <- https://m3u.ibert.me/txt/fmml_ipv6.txt
+[2026-10-23 00:14:06] [INFO] [10/10]     6 条 <- https://peterhchina.github.io/iptv/CCTV-V4.m3u
+[2026-10-23 00:14:06] [INFO] 模板 demo.txt：声明 53 个频道，其中 0 条自带地址
+[2026-10-23 00:14:06] [INFO] 本地源 local.txt 载入 3 条
+[2026-10-23 00:14:06] [INFO] 原始条目合计 4557 条
+[2026-10-23 00:14:06] [INFO] 过滤后 3338 条（丢弃：{'黑名单': 15, '重复URL': 1085, '协议不符': 119}）
+[2026-10-23 00:14:06] [WARN] 候选数超上限，按来源轮流取样后截断至 3000 条
+[2026-10-23 00:14:06] [INFO] 开始测速校验，48 线程，单源超时 4s ...
+[2026-10-23 00:14:10] [INFO]   进度 200/3000，有效 83
+[2026-10-23 00:14:17] [INFO]   进度 400/3000，有效 160
+[2026-10-23 00:14:27] [INFO]   进度 600/3000，有效 212
+[2026-10-23 00:14:32] [INFO]   进度 800/3000，有效 270
+[2026-10-23 00:14:39] [INFO]   进度 1000/3000，有效 343
+[2026-10-23 00:14:44] [INFO]   进度 1200/3000，有效 431
+[2026-10-23 00:14:52] [INFO]   进度 1400/3000，有效 522
+[2026-10-23 00:15:02] [INFO]   进度 1600/3000，有效 573
+[2026-10-23 00:15:10] [INFO]   进度 1800/3000，有效 628
+[2026-10-23 00:15:25] [INFO]   进度 2000/3000，有效 697
+[2026-10-23 00:15:34] [INFO]   进度 2200/3000，有效 799
+[2026-10-23 00:15:40] [INFO]   进度 2400/3000，有效 839
+[2026-10-23 00:15:50] [INFO]   进度 2600/3000，有效 856
+[2026-10-23 00:15:55] [INFO]   进度 2800/3000，有效 904
+[2026-10-23 00:16:37] [INFO]   进度 3000/3000，有效 939
+[2026-10-23 00:16:37] [INFO] 测速完成：有效 939 / 3000 条
+[2026-10-23 00:16:37] [INFO] 模板频道命中 42/53，未命中 11 个（多为本轮未抓到可用地址）
+[2026-10-23 00:16:37] [WARN]   未命中示例：深圳都市、佛山公共、凤凰卫视中文台、凤凰卫视资讯台、五星体育、劲爆体育、CHC家庭影院、CHC动作电影、淘剧场、金鹰卡通、嘉佳卡通
+[2026-10-23 00:16:37] [INFO] 最终产出 600 个频道，共 926 条有效地址
+[2026-10-23 00:16:37] [INFO] 开始聚合点播源（sites / spider / parses / flags）...
+[2026-10-23 00:16:37] [INFO]   [1/6] sites  153 / parses  28 <- jsm.json
+[2026-10-23 00:16:37] [INFO]   [2/6] sites  154 / parses  28 <- dianshi.json
+[2026-10-23 00:16:37] [INFO]   [3/6] sites  106 / parses   0 <- 367.json
+[2026-10-23 00:16:37] [INFO]   [4/6] sites   49 / parses   8 <- XYQ.json
+[2026-10-23 00:16:37] [INFO]   [5/6] sites   86 / parses  10 <- 0821.json
+[2026-10-23 00:16:38] [INFO]   [6/6] sites  298 / parses  10 <- js.json
+[2026-10-23 00:16:38] [INFO]   手工点播源 5 条（优先保留）
+[2026-10-23 00:16:38] [INFO]   校验 14 个 CMS 点播接口（ac=list）...
+[2026-10-23 00:16:38] [INFO]   CMS 接口有效 9 / 14，丢弃 5 个失效接口
+[2026-10-23 00:16:38] [WARN]   点播源超过上限，截断至 150 条
+[2026-10-23 00:16:38] [INFO]   自动选定 spider（2 个来源一致）：https://raw.githubusercontent.com/qist/tvbox/master/jar/spider.jar;md5;ea98a70ee6967e433c24e4941ede7fd8
+[2026-10-23 00:16:38] [INFO] 点播源合计 150 条（type 分布 {1: 14, 3: 135, 0: 1}），parses 33 条，flags 0 条
+[2026-10-23 00:16:38] [INFO] spider = https://raw.githubusercontent.com/qist/tvbox/master/jar/spider.jar;md5;ea98a70ee6967e433c24e4941ede7fd8
+[2026-10-23 00:16:38] [INFO] 已生成 output/result.txt
+[2026-10-23 00:16:38] [INFO] 已生成 output/result.m3u
+[2026-10-23 00:16:38] [INFO] 已生成 output/source.json（直播 600 频道 / 点播 150 站）
+[2026-10-23 00:16:38] [INFO] 已生成 output/sites.json
