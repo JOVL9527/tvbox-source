@@ -1,7 +1,7 @@
 {
   "name": "我的 TVBox 配置源",
-  "version": "2026-10-23 22:34:01",
-  "update_time": "2026-10-23 22:34:01",
+  "version": "2026-10-24 08:10:08",
+  "update_time": "2026-10-24 08:10:08",
   "spider": "https://raw.githubusercontent.com/qist/tvbox/master/jar/spider.jar;md5;f302b3d8b3b84ad823a720966d9a1dfc",
   "sites": [
     {
@@ -50,19 +50,19 @@
       "filterable": 1
     },
     {
-      "key": "率率",
-      "name": "影视 • 率率[直连]",
+      "key": "极速资源",
+      "name": "影视 • 极速[直连]",
       "type": 1,
-      "api": "https://suoniapi.com/api.php/provide/vod/?ac=list",
+      "api": "https://jszyapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
     },
     {
-      "key": "极速资源",
-      "name": "影视 • 极速[直连]",
+      "key": "非凡",
+      "name": "影视 • 非凡[直连]",
       "type": 1,
-      "api": "https://jszyapi.com/api.php/provide/vod/?ac=list",
+      "api": "http://ffzy.tv/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -87,6 +87,15 @@
       "filterable": 1
     },
     {
+      "key": "率率",
+      "name": "影视 • 率率[直连]",
+      "type": 1,
+      "api": "https://suoniapi.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
       "key": "百度",
       "name": "百度",
       "type": 1,
@@ -96,10 +105,10 @@
       "filterable": 0
     },
     {
-      "key": "非凡",
-      "name": "影视 • 非凡[直连]",
+      "key": "U酷资源風",
+      "name": "影视 • 尤酷[直连]",
       "type": 1,
-      "api": "http://ffzy.tv/api.php/provide/vod/",
+      "api": "https://api.ukuapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -113,15 +122,6 @@
       "quickSearch": 1,
       "filterable": 1,
       "playerType": 2
-    },
-    {
-      "key": "U酷资源風",
-      "name": "影视 • 尤酷[直连]",
-      "type": 1,
-      "api": "https://api.ukuapi.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
     },
     {
       "key": "暴風",
@@ -1653,8 +1653,8 @@
     "其他"
   ],
   "stats": {
-    "channels": 702,
-    "streams": 1015,
+    "channels": 685,
+    "streams": 1010,
     "sites": 150,
     "sources_ok": 10,
     "sources_failed": 0
