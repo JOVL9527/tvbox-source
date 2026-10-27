@@ -1,7 +1,7 @@
 {
   "name": "我的 TVBox 配置源",
-  "version": "2026-10-27 00:23:51",
-  "update_time": "2026-10-27 00:23:51",
+  "version": "2026-10-27 09:01:19",
+  "update_time": "2026-10-27 09:01:19",
   "spider": "https://raw.githubusercontent.com/qist/tvbox/master/jar/spider.jar;md5;c1978e5cec469f66f07efd37d39ec26a",
   "sites": [
     {
@@ -50,19 +50,19 @@
       "filterable": 1
     },
     {
-      "key": "率率",
-      "name": "影视 • 率率[直连]",
+      "key": "极速资源",
+      "name": "影视 • 极速[直连]",
       "type": 1,
-      "api": "https://suoniapi.com/api.php/provide/vod/?ac=list",
+      "api": "https://jszyapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
     },
     {
-      "key": "极速资源",
-      "name": "影视 • 极速[直连]",
+      "key": "非凡",
+      "name": "影视 • 非凡[直连]",
       "type": 1,
-      "api": "https://jszyapi.com/api.php/provide/vod/?ac=list",
+      "api": "http://ffzy.tv/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -78,37 +78,10 @@
       "playerType": 2
     },
     {
-      "key": "百度",
-      "name": "百度",
+      "key": "率率",
+      "name": "影视 • 率率[直连]",
       "type": 1,
-      "api": "https://api.apibdzy.com/api.php/provide/vod?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "量子",
-      "name": "影视 • 量子[直连]",
-      "type": 1,
-      "api": "https://cj.lziapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "暴風",
-      "name": "影视 • 暴風[直连]",
-      "type": 1,
-      "api": "https://bfzyapi.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "U酷资源風",
-      "name": "影视 • 尤酷[直连]",
-      "type": 1,
-      "api": "https://api.ukuapi.com/api.php/provide/vod/?ac=list",
+      "api": "https://suoniapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -124,10 +97,37 @@
       "playerType": 2
     },
     {
-      "key": "非凡",
-      "name": "影视 • 非凡[直连]",
+      "key": "百度",
+      "name": "百度",
       "type": 1,
-      "api": "http://ffzy.tv/api.php/provide/vod/",
+      "api": "https://api.apibdzy.com/api.php/provide/vod?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "U酷资源風",
+      "name": "影视 • 尤酷[直连]",
+      "type": 1,
+      "api": "https://api.ukuapi.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "暴風",
+      "name": "影视 • 暴風[直连]",
+      "type": 1,
+      "api": "https://bfzyapi.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "量子",
+      "name": "影视 • 量子[直连]",
+      "type": 1,
+      "api": "https://cj.lziapi.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -1655,7 +1655,7 @@
   ],
   "stats": {
     "channels": 638,
-    "streams": 967,
+    "streams": 969,
     "sites": 150,
     "sources_ok": 10,
     "sources_failed": 0
