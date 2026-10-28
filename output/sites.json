@@ -1,7 +1,7 @@
 {
   "name": "我的 TVBox 点播配置",
-  "version": "2026-10-27 23:38:32",
-  "update_time": "2026-10-27 23:38:32",
+  "version": "2026-10-28 08:51:06",
+  "update_time": "2026-10-28 08:51:06",
   "spider": "https://raw.githubusercontent.com/qist/tvbox/master/jar/spider.jar;md5;c1978e5cec469f66f07efd37d39ec26a",
   "sites": [
     {
@@ -50,15 +50,6 @@
       "filterable": 1
     },
     {
-      "key": "非凡",
-      "name": "影视 • 非凡[直连]",
-      "type": 1,
-      "api": "http://ffzy.tv/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "率率",
       "name": "影视 • 率率[直连]",
       "type": 1,
@@ -68,13 +59,14 @@
       "filterable": 1
     },
     {
-      "key": "极速资源",
-      "name": "影视 • 极速[直连]",
+      "key": "天涯采集",
+      "name": "影视 • 天涯",
       "type": 1,
-      "api": "https://jszyapi.com/api.php/provide/vod/?ac=list",
+      "api": "http://tyyszy.com/api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "playerType": 2
     },
     {
       "key": "百度",
@@ -86,14 +78,32 @@
       "filterable": 0
     },
     {
-      "key": "天涯采集",
-      "name": "影视 • 天涯",
+      "key": "建安采集",
+      "name": "影视 • 建安",
       "type": 1,
-      "api": "http://tyyszy.com/api.php/provide/vod",
+      "api": "http://154.219.117.232:9981/jacloudapi.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
       "playerType": 2
+    },
+    {
+      "key": "极速资源",
+      "name": "影视 • 极速[直连]",
+      "type": 1,
+      "api": "https://jszyapi.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "U酷资源風",
+      "name": "影视 • 尤酷[直连]",
+      "type": 1,
+      "api": "https://api.ukuapi.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
     },
     {
       "key": "暴風",
@@ -109,25 +119,6 @@
       "name": "影视 • 量子[直连]",
       "type": 1,
       "api": "https://cj.lziapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "建安采集",
-      "name": "影视 • 建安",
-      "type": 1,
-      "api": "http://154.219.117.232:9981/jacloudapi.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "playerType": 2
-    },
-    {
-      "key": "U酷资源風",
-      "name": "影视 • 尤酷[直连]",
-      "type": 1,
-      "api": "https://api.ukuapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -1429,6 +1420,17 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
+      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;b752cad81649bf070c934c423c3a1b86"
+    },
+    {
+      "key": "cloudLJ",
+      "name": "🐋天翼雷鲸┃4K弹幕",
+      "type": 3,
+      "api": "csp_PanWebShareCloudLJ",
+      "searchable": 0,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "http://我不是.摸鱼儿.top/json/lj.json",
       "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;b752cad81649bf070c934c423c3a1b86"
     }
   ],
