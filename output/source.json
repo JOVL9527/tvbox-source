@@ -1,8 +1,8 @@
 {
   "name": "我的 TVBox 配置源",
-  "version": "2026-10-30 09:27:29",
-  "update_time": "2026-10-30 09:27:29",
-  "spider": "https://raw.githubusercontent.com/qist/tvbox/master/jar/spider.jar;md5;c1978e5cec469f66f07efd37d39ec26a",
+  "version": "2026-10-31 00:23:15",
+  "update_time": "2026-10-31 00:23:15",
+  "spider": "https://raw.githubusercontent.com/qist/tvbox/master/jar/spider.jar;md5;a4638e7ba814dd552472501335ecdc47",
   "sites": [
     {
       "key": "电影天堂采集",
@@ -50,15 +50,6 @@
       "filterable": 1
     },
     {
-      "key": "极速资源",
-      "name": "影视 • 极速[直连]",
-      "type": 1,
-      "api": "https://jszyapi.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "天涯采集",
       "name": "影视 • 天涯",
       "type": 1,
@@ -67,6 +58,15 @@
       "quickSearch": 1,
       "filterable": 1,
       "playerType": 2
+    },
+    {
+      "key": "极速资源",
+      "name": "影视 • 极速[直连]",
+      "type": 1,
+      "api": "https://jszyapi.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
     },
     {
       "key": "百度",
@@ -78,15 +78,6 @@
       "filterable": 0
     },
     {
-      "key": "率率",
-      "name": "影视 • 率率[直连]",
-      "type": 1,
-      "api": "https://suoniapi.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "建安采集",
       "name": "影视 • 建安",
       "type": 1,
@@ -95,6 +86,15 @@
       "quickSearch": 1,
       "filterable": 1,
       "playerType": 2
+    },
+    {
+      "key": "率率",
+      "name": "影视 • 率率[直连]",
+      "type": 1,
+      "api": "https://suoniapi.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
     },
     {
       "key": "U酷资源風",
@@ -115,19 +115,19 @@
       "filterable": 1
     },
     {
-      "key": "暴風",
-      "name": "影视 • 暴風[直连]",
+      "key": "量子",
+      "name": "影视 • 量子[直连]",
       "type": 1,
-      "api": "https://bfzyapi.com/api.php/provide/vod/?ac=list",
+      "api": "https://cj.lziapi.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
     },
     {
-      "key": "量子",
-      "name": "影视 • 量子[直连]",
+      "key": "暴風",
+      "name": "影视 • 暴風[直连]",
       "type": 1,
-      "api": "https://cj.lziapi.com/api.php/provide/vod/",
+      "api": "https://bfzyapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -777,11 +777,28 @@
       "key": "巴士动漫",
       "name": "巴士 • 动漫",
       "type": 3,
-      "api": "csp_XBPQ",
+      "api": "csp_AnimeBashi",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://raw.githubusercontent.com/qist/tvbox/master/{'请求头': 'User-Agent$MOBILE_UA#Accept$text/html#accept-language$zh-CN,zh;q=0.8', '分类url': 'https://dmbus.cc/show-{cateId}--{by}-{class}--{year}-{catePg}.html', '分类': '国漫$1#日漫$2#欧美动漫$3#电影$4', '数组': 'class=\"item\">&&</li>', '简介': '剧情：&&</p>', '标题': 'title=\"&&在线观看\"', '副标题': 'desc\">&&</span>', '图片': 'data-bg=\"&&\"', '搜索url': 'https://dmbus.cc/s----------.html?wd={wd}', '倒序': '1'}"
+      "filterable": 1
+    },
+    {
+      "key": "吉里动漫",
+      "name": "吉里 • 动漫",
+      "type": 3,
+      "api": "csp_AnimeGiri",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "花子动漫",
+      "name": "花子 • 动漫",
+      "type": 3,
+      "api": "csp_AnimeHuazi",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
     },
     {
       "key": "荐片",
@@ -1409,27 +1426,6 @@
       "filterable": 0,
       "ext": "http://我不是.摸鱼儿.top/json/zz.json",
       "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;b752cad81649bf070c934c423c3a1b86"
-    },
-    {
-      "key": "YYDSYS",
-      "name": "🍡多多网盘┃4K弹幕",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "http://我不是.摸鱼儿.top/json/yyds.json",
-      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;b752cad81649bf070c934c423c3a1b86"
-    },
-    {
-      "key": "QuarkTZ",
-      "name": "✊️团长网盘┃4K弹幕",
-      "type": 3,
-      "api": "csp_PanWebTz",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;b752cad81649bf070c934c423c3a1b86"
     }
   ],
   "lives": [
@@ -1654,8 +1650,8 @@
     "其他"
   ],
   "stats": {
-    "channels": 632,
-    "streams": 969,
+    "channels": 516,
+    "streams": 853,
     "sites": 150,
     "sources_ok": 10,
     "sources_failed": 0
