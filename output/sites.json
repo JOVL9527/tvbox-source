@@ -1,7 +1,7 @@
 {
   "name": "我的 TVBox 点播配置",
-  "version": "2026-10-31 09:14:10",
-  "update_time": "2026-10-31 09:14:10",
+  "version": "2026-10-31 23:35:06",
+  "update_time": "2026-10-31 23:35:06",
   "spider": "https://raw.githubusercontent.com/qist/tvbox/master/jar/spider.jar;md5;a4638e7ba814dd552472501335ecdc47",
   "sites": [
     {
@@ -50,6 +50,15 @@
       "filterable": 1
     },
     {
+      "key": "极速资源",
+      "name": "影视 • 极速[直连]",
+      "type": 1,
+      "api": "https://jszyapi.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
       "key": "天涯采集",
       "name": "影视 • 天涯",
       "type": 1,
@@ -58,15 +67,6 @@
       "quickSearch": 1,
       "filterable": 1,
       "playerType": 2
-    },
-    {
-      "key": "极速资源",
-      "name": "影视 • 极速[直连]",
-      "type": 1,
-      "api": "https://jszyapi.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
     },
     {
       "key": "百度",
@@ -115,19 +115,19 @@
       "filterable": 1
     },
     {
-      "key": "非凡",
-      "name": "影视 • 非凡[直连]",
+      "key": "巨量",
+      "name": "巨量 • 影视",
       "type": 1,
-      "api": "http://ffzy.tv/api.php/provide/vod/",
+      "api": "https://api.juliang.live/api/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
     },
     {
-      "key": "量子",
-      "name": "影视 • 量子[直连]",
+      "key": "非凡",
+      "name": "影视 • 非凡[直连]",
       "type": 1,
-      "api": "https://cj.lziapi.com/api.php/provide/vod/",
+      "api": "http://ffzy.tv/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
