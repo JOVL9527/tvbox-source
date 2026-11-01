@@ -1,8 +1,8 @@
 {
   "name": "我的 TVBox 点播配置",
-  "version": "2026-11-01 08:35:01",
-  "update_time": "2026-11-01 08:35:01",
-  "spider": "https://raw.githubusercontent.com/qist/tvbox/master/jar/spider.jar;md5;a4638e7ba814dd552472501335ecdc47",
+  "version": "2026-11-02 00:32:33",
+  "update_time": "2026-11-02 00:32:33",
+  "spider": "https://raw.githubusercontent.com/qist/tvbox/master/jar/spider.jar;md5;4e4e7408ede9d8c782ba7a3e7fae32ae",
   "sites": [
     {
       "key": "电影天堂采集",
@@ -50,22 +50,22 @@
       "filterable": 1
     },
     {
-      "key": "非凡",
-      "name": "影视 • 非凡[直连]",
+      "key": "率率",
+      "name": "影视 • 率率[直连]",
       "type": 1,
-      "api": "http://ffzy.tv/api.php/provide/vod/",
+      "api": "https://suoniapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
     },
     {
-      "key": "极速资源",
-      "name": "影视 • 极速[直连]",
+      "key": "百度",
+      "name": "百度",
       "type": 1,
-      "api": "https://jszyapi.com/api.php/provide/vod/?ac=list",
+      "api": "https://api.apibdzy.com/api.php/provide/vod?ac=list",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 0
     },
     {
       "key": "U酷资源風",
@@ -87,13 +87,22 @@
       "playerType": 2
     },
     {
-      "key": "百度",
-      "name": "百度",
+      "key": "极速资源",
+      "name": "影视 • 极速[直连]",
       "type": 1,
-      "api": "https://api.apibdzy.com/api.php/provide/vod?ac=list",
+      "api": "https://jszyapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 0
+      "filterable": 1
+    },
+    {
+      "key": "暴風",
+      "name": "影视 • 暴風[直连]",
+      "type": 1,
+      "api": "https://bfzyapi.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
     },
     {
       "key": "建安采集",
@@ -106,19 +115,10 @@
       "playerType": 2
     },
     {
-      "key": "率率",
-      "name": "影视 • 率率[直连]",
+      "key": "非凡",
+      "name": "影视 • 非凡[直连]",
       "type": 1,
-      "api": "https://suoniapi.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "暴風",
-      "name": "影视 • 暴風[直连]",
-      "type": 1,
-      "api": "https://bfzyapi.com/api.php/provide/vod/?ac=list",
+      "api": "http://ffzy.tv/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -848,6 +848,15 @@
       "ext": "https://xunlei8.me"
     },
     {
+      "key": "电影港",
+      "name": "电影港 • 磁力",
+      "type": 3,
+      "api": "csp_DianYingG",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
       "key": "阿里云盘",
       "name": "阿里 • 云盘",
       "type": 3,
@@ -1412,17 +1421,6 @@
       "quickSearch": 1,
       "filterable": 0,
       "ext": "http://我不是.摸鱼儿.top/json/ex.json",
-      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;b752cad81649bf070c934c423c3a1b86"
-    },
-    {
-      "key": "QuarkLaBiV2",
-      "name": "🖍︎蜡笔资源┃4K弹幕",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "http://我不是.摸鱼儿.top/json/lb.json",
       "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;b752cad81649bf070c934c423c3a1b86"
     }
   ],
