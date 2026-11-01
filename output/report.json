@@ -1,37 +1,37 @@
 {
-  "run_at": "2026-10-31 23:35:06",
-  "elapsed_sec": 176.4,
+  "run_at": "2026-11-01 08:35:01",
+  "elapsed_sec": 154.0,
   "live": {
-    "raw": 4970,
+    "raw": 4757,
     "after_filter": 3000,
-    "verified": 972,
-    "channels": 620,
-    "streams_out": 947,
+    "verified": 867,
+    "channels": 527,
+    "streams_out": 847,
     "sources_ok": 10,
     "sources_failed": [],
     "category_counts": {
-      "CCTV": 26,
-      "卫视": 44,
-      "地方台": 97,
-      "港澳台": 22,
-      "体育": 3,
+      "CCTV": 24,
+      "卫视": 45,
+      "地方台": 88,
+      "港澳台": 20,
+      "体育": 4,
       "影视": 10,
       "少儿": 4,
-      "纪录": 7,
+      "纪录": 6,
       "音乐": 2,
-      "财经": 9,
-      "教育": 2,
+      "财经": 11,
+      "教育": 4,
       "国际": 5,
-      "其他": 389
+      "其他": 304
     },
-    "hit_rate": "972/3000"
+    "hit_rate": "867/3000"
   },
   "vod": {
     "sites_out": 150,
     "type_counts": {
       "0": 1,
-      "1": 14,
-      "3": 135
+      "1": 15,
+      "3": 134
     },
     "spider": "https://raw.githubusercontent.com/qist/tvbox/master/jar/spider.jar;md5;a4638e7ba814dd552472501335ecdc47",
     "parses": 33,
@@ -41,7 +41,7 @@
     "raw": 850,
     "dup": 326,
     "blacklist": 0,
-    "cms_dead": 6,
-    "cms_alive": 9
+    "cms_dead": 5,
+    "cms_alive": 10
   }
 }
