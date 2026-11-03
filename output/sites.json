@@ -1,8 +1,8 @@
 {
   "name": "我的 TVBox 点播配置",
-  "version": "2026-11-03 11:10:44",
-  "update_time": "2026-11-03 11:10:44",
-  "spider": "https://raw.githubusercontent.com/qist/tvbox/master/jar/spider.jar;md5;9265a1d14d8135dc4f1dca0a8b30a130",
+  "version": "2026-11-04 01:26:45",
+  "update_time": "2026-11-04 01:26:45",
+  "spider": "https://raw.githubusercontent.com/qist/tvbox/master/jar/spider.jar;md5;c6c7cbd14359dee31a97abb7ec27df19",
   "sites": [
     {
       "key": "电影天堂采集",
@@ -68,15 +68,6 @@
       "filterable": 1
     },
     {
-      "key": "率率",
-      "name": "影视 • 率率[直连]",
-      "type": 1,
-      "api": "https://suoniapi.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "天涯采集",
       "name": "影视 • 天涯",
       "type": 1,
@@ -85,6 +76,15 @@
       "quickSearch": 1,
       "filterable": 1,
       "playerType": 2
+    },
+    {
+      "key": "率率",
+      "name": "影视 • 率率[直连]",
+      "type": 1,
+      "api": "https://suoniapi.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
     },
     {
       "key": "百度",
@@ -96,15 +96,6 @@
       "filterable": 0
     },
     {
-      "key": "U酷资源風",
-      "name": "影视 • 尤酷[直连]",
-      "type": 1,
-      "api": "https://api.ukuapi.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "建安采集",
       "name": "影视 • 建安",
       "type": 1,
@@ -113,6 +104,15 @@
       "quickSearch": 1,
       "filterable": 1,
       "playerType": 2
+    },
+    {
+      "key": "U酷资源風",
+      "name": "影视 • 尤酷[直连]",
+      "type": 1,
+      "api": "https://api.ukuapi.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
     },
     {
       "key": "暴風",
@@ -128,15 +128,6 @@
       "name": "影视 • 量子[直连]",
       "type": 1,
       "api": "https://cj.lziapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "巨量",
-      "name": "巨量 • 影视",
-      "type": 1,
-      "api": "https://api.juliang.live/api/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -271,6 +262,16 @@
       "quickSearch": 1,
       "filterable": 0,
       "ext": "https://raw.githubusercontent.com/qist/tvbox/master/{'url': 'http:/v.rbotv.cn'}"
+    },
+    {
+      "key": "快映fox",
+      "name": "快映 • APP",
+      "type": 3,
+      "api": "csp_AppFox",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://raw.githubusercontent.com/qist/tvbox/master/json/ky4kbgq7b273.json"
     },
     {
       "key": "一起影视",
@@ -781,6 +782,15 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "{'请求头': 'User-Agent$MOBILE_UA', '编码': 'UTF-8', '主页url': 'https://dora.xiaoxinbk.com/', '数组': 'class=\"card-img-bili\"&&</a>', '标题': 'alt=\"&&\"', '图片': 'data-url=\"&&\"', '链接': 'href=\"&&\"', '线路标题': 'mt-0\">&&</h3>', '播放数组': 'class=\"card-body button-list\"&&</div>', '播放列表': '<a&&a>', '播放链接': 'href=\"&&\"', '播放标题': '>&&</', '分类url': 'https://www.dora-video.cn/search/sy/?niandai={year}&cat={class}&tag={cateId}&gaojijiansuo=1&zhuangtai={by}', '分类': '全部$0#动画$20#剧场版$21#MV$22#预告片$23#直播$27#同人$25#民间$26#目录$28#中篇$30', '剧情': '哆啦A梦新番$1#新哆啦A梦 台湾配音$2#哆啦A梦剧场版$3#最新预告片$6#剧场版集合$7#哆啦A梦MV$4#哆啦A梦七小子集合$11#生日特别篇$19#哆啦A梦生日特别篇$12#哆啦美生日特别篇$14#大雄生日特别篇$13#静香生日特别篇$15#胖虎生日特别篇$16#小夫生日特别篇$17#24小时直播$24#哆啦A梦中篇附映$29#哆啦A梦大山版 - 哆啦a梦1979版国语旧版 - 旧版$31#哆啦A梦大山修复&补档区$32#藤子·F·不二雄【其它动画】$33', '排序': '全部$0#完结$2#连载$1#待定$-1'}"
+    },
+    {
+      "key": "稀饭",
+      "name": "稀饭 • 动漫",
+      "type": 3,
+      "api": "csp_AnimeXifan",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
     },
     {
       "key": "巴士动漫",
@@ -1410,17 +1420,6 @@
       "quickSearch": 0,
       "filterable": 0,
       "ext": "http://我不是.摸鱼儿.top/json/mogg.json",
-      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;b752cad81649bf070c934c423c3a1b86"
-    },
-    {
-      "key": "UcXmV2",
-      "name": "🐂小二资源┃4K弹幕",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "http://我不是.摸鱼儿.top/json/ex.json",
       "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;b752cad81649bf070c934c423c3a1b86"
     }
   ],
