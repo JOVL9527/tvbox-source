@@ -1,7 +1,7 @@
 {
   "name": "我的 TVBox 点播配置",
-  "version": "2026-11-03 03:55:12",
-  "update_time": "2026-11-03 03:55:12",
+  "version": "2026-11-03 11:10:44",
+  "update_time": "2026-11-03 11:10:44",
   "spider": "https://raw.githubusercontent.com/qist/tvbox/master/jar/spider.jar;md5;9265a1d14d8135dc4f1dca0a8b30a130",
   "sites": [
     {
@@ -50,6 +50,15 @@
       "filterable": 1
     },
     {
+      "key": "非凡",
+      "name": "影视 • 非凡[直连]",
+      "type": 1,
+      "api": "http://ffzy.tv/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
       "key": "极速资源",
       "name": "影视 • 极速[直连]",
       "type": 1,
@@ -59,10 +68,10 @@
       "filterable": 1
     },
     {
-      "key": "非凡",
-      "name": "影视 • 非凡[直连]",
+      "key": "率率",
+      "name": "影视 • 率率[直连]",
       "type": 1,
-      "api": "http://ffzy.tv/api.php/provide/vod/",
+      "api": "https://suoniapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -87,10 +96,10 @@
       "filterable": 0
     },
     {
-      "key": "率率",
-      "name": "影视 • 率率[直连]",
+      "key": "U酷资源風",
+      "name": "影视 • 尤酷[直连]",
       "type": 1,
-      "api": "https://suoniapi.com/api.php/provide/vod/?ac=list",
+      "api": "https://api.ukuapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -104,15 +113,6 @@
       "quickSearch": 1,
       "filterable": 1,
       "playerType": 2
-    },
-    {
-      "key": "U酷资源風",
-      "name": "影视 • 尤酷[直连]",
-      "type": 1,
-      "api": "https://api.ukuapi.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
     },
     {
       "key": "暴風",
