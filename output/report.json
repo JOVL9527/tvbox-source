@@ -1,20 +1,20 @@
 {
-  "run_at": "2026-11-04 01:26:45",
-  "elapsed_sec": 122.5,
+  "run_at": "2026-11-04 09:47:02",
+  "elapsed_sec": 123.4,
   "live": {
-    "raw": 4895,
+    "raw": 4790,
     "after_filter": 3000,
-    "verified": 940,
-    "channels": 592,
-    "streams_out": 915,
+    "verified": 927,
+    "channels": 599,
+    "streams_out": 908,
     "sources_ok": 10,
     "sources_failed": [],
     "category_counts": {
-      "CCTV": 24,
+      "CCTV": 25,
       "卫视": 44,
-      "地方台": 93,
+      "地方台": 98,
       "港澳台": 21,
-      "体育": 4,
+      "体育": 3,
       "影视": 31,
       "少儿": 4,
       "纪录": 7,
@@ -22,9 +22,9 @@
       "财经": 9,
       "教育": 3,
       "国际": 5,
-      "其他": 345
+      "其他": 347
     },
-    "hit_rate": "940/3000"
+    "hit_rate": "927/3000"
   },
   "vod": {
     "sites_out": 150,

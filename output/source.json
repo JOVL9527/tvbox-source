@@ -1,7 +1,7 @@
 {
   "name": "我的 TVBox 配置源",
-  "version": "2026-11-04 01:26:45",
-  "update_time": "2026-11-04 01:26:45",
+  "version": "2026-11-04 09:47:02",
+  "update_time": "2026-11-04 09:47:02",
   "spider": "https://raw.githubusercontent.com/qist/tvbox/master/jar/spider.jar;md5;c6c7cbd14359dee31a97abb7ec27df19",
   "sites": [
     {
@@ -59,15 +59,6 @@
       "filterable": 1
     },
     {
-      "key": "极速资源",
-      "name": "影视 • 极速[直连]",
-      "type": 1,
-      "api": "https://jszyapi.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "天涯采集",
       "name": "影视 • 天涯",
       "type": 1,
@@ -76,6 +67,15 @@
       "quickSearch": 1,
       "filterable": 1,
       "playerType": 2
+    },
+    {
+      "key": "极速资源",
+      "name": "影视 • 极速[直连]",
+      "type": 1,
+      "api": "https://jszyapi.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
     },
     {
       "key": "率率",
@@ -1645,8 +1645,8 @@
     "其他"
   ],
   "stats": {
-    "channels": 592,
-    "streams": 915,
+    "channels": 599,
+    "streams": 908,
     "sites": 150,
     "sources_ok": 10,
     "sources_failed": 0
