@@ -1,7 +1,7 @@
 {
   "name": "我的 TVBox 点播配置",
-  "version": "2026-11-07 09:26:32",
-  "update_time": "2026-11-07 09:26:32",
+  "version": "2026-11-07 23:59:42",
+  "update_time": "2026-11-07 23:59:42",
   "spider": "https://raw.githubusercontent.com/qist/tvbox/master/jar/spider.jar;md5;96ae86a8139a92009c4d83d1c6d7fac1",
   "sites": [
     {
@@ -59,13 +59,13 @@
       "filterable": 1
     },
     {
-      "key": "非凡",
-      "name": "影视 • 非凡[直连]",
+      "key": "百度",
+      "name": "百度",
       "type": 1,
-      "api": "http://ffzy.tv/api.php/provide/vod/",
+      "api": "https://api.apibdzy.com/api.php/provide/vod?ac=list",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 0
     },
     {
       "key": "天涯采集",
@@ -85,15 +85,6 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
-    },
-    {
-      "key": "百度",
-      "name": "百度",
-      "type": 1,
-      "api": "https://api.apibdzy.com/api.php/provide/vod?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
     },
     {
       "key": "极速资源",
@@ -1421,6 +1412,17 @@
       "quickSearch": 0,
       "filterable": 0,
       "ext": "http://我不是.摸鱼儿.top/json/mogg.json",
+      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;b752cad81649bf070c934c423c3a1b86"
+    },
+    {
+      "key": "UcXmV2",
+      "name": "🐂小二资源┃4K弹幕",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "http://我不是.摸鱼儿.top/json/ex.json",
       "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;b752cad81649bf070c934c423c3a1b86"
     }
   ],
