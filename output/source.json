@@ -1,8 +1,8 @@
 {
   "name": "我的 TVBox 配置源",
-  "version": "2026-11-08 08:59:26",
-  "update_time": "2026-11-08 08:59:26",
-  "spider": "https://raw.githubusercontent.com/qist/tvbox/master/jar/spider.jar;md5;96ae86a8139a92009c4d83d1c6d7fac1",
+  "version": "2026-11-09 00:28:07",
+  "update_time": "2026-11-09 00:28:07",
+  "spider": "https://raw.githubusercontent.com/qist/tvbox/master/jar/spider.jar;md5;22f033e29be68cd8aac3280c364903f8",
   "sites": [
     {
       "key": "电影天堂采集",
@@ -50,10 +50,10 @@
       "filterable": 1
     },
     {
-      "key": "率率",
-      "name": "影视 • 率率[直连]",
+      "key": "非凡",
+      "name": "影视 • 非凡[直连]",
       "type": 1,
-      "api": "https://suoniapi.com/api.php/provide/vod/?ac=list",
+      "api": "http://ffzy.tv/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -87,19 +87,10 @@
       "filterable": 0
     },
     {
-      "key": "U酷资源風",
-      "name": "影视 • 尤酷[直连]",
+      "key": "率率",
+      "name": "影视 • 率率[直连]",
       "type": 1,
-      "api": "https://api.ukuapi.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "暴風",
-      "name": "影视 • 暴風[直连]",
-      "type": 1,
-      "api": "https://bfzyapi.com/api.php/provide/vod/?ac=list",
+      "api": "https://suoniapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -115,10 +106,19 @@
       "playerType": 2
     },
     {
-      "key": "非凡",
-      "name": "影视 • 非凡[直连]",
+      "key": "U酷资源風",
+      "name": "影视 • 尤酷[直连]",
       "type": 1,
-      "api": "http://ffzy.tv/api.php/provide/vod/",
+      "api": "https://api.ukuapi.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "暴風",
+      "name": "影视 • 暴風[直连]",
+      "type": 1,
+      "api": "https://bfzyapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -669,6 +669,15 @@
       "ext": "https://raw.githubusercontent.com/qist/tvbox/master/{'请求头': 'User-Agent$MOBILE_UA', '编码': 'UTF-8', '分类': '重生$1#穿越$2#爽剧$3#言情$4#都市$5#古装$6#悬疑$7#剧情$8', '分类url': 'https://www.mochadj.com/i/{cateId}-{catePg}.html'}"
     },
     {
+      "key": "星辰影视",
+      "name": "星辰 • 影视",
+      "type": 3,
+      "api": "csp_XingChen",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
       "key": "飞娱影视",
       "name": "飞娱 • 影视",
       "type": 3,
@@ -753,16 +762,6 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
-    },
-    {
-      "key": "面包影视",
-      "name": "面包 • 影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://raw.githubusercontent.com/qist/tvbox/master/{'请求头': 'User-Agent$MOBILE_UA', '编码': 'UTF-8', '分类url': 'https:/v.aiwule.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html', '分类': '电影$20#电视剧$21#动漫$23#综艺$22#短剧$47', '简介': '简介：&&'}"
     },
     {
       "key": "1905",
@@ -1646,8 +1645,8 @@
     "其他"
   ],
   "stats": {
-    "channels": 605,
-    "streams": 939,
+    "channels": 598,
+    "streams": 931,
     "sites": 150,
     "sources_ok": 10,
     "sources_failed": 0
