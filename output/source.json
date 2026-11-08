@@ -1,7 +1,7 @@
 {
   "name": "我的 TVBox 配置源",
-  "version": "2026-11-07 23:59:42",
-  "update_time": "2026-11-07 23:59:42",
+  "version": "2026-11-08 08:59:26",
+  "update_time": "2026-11-08 08:59:26",
   "spider": "https://raw.githubusercontent.com/qist/tvbox/master/jar/spider.jar;md5;96ae86a8139a92009c4d83d1c6d7fac1",
   "sites": [
     {
@@ -59,13 +59,13 @@
       "filterable": 1
     },
     {
-      "key": "百度",
-      "name": "百度",
+      "key": "极速资源",
+      "name": "影视 • 极速[直连]",
       "type": 1,
-      "api": "https://api.apibdzy.com/api.php/provide/vod?ac=list",
+      "api": "https://jszyapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 0
+      "filterable": 1
     },
     {
       "key": "天涯采集",
@@ -78,6 +78,15 @@
       "playerType": 2
     },
     {
+      "key": "百度",
+      "name": "百度",
+      "type": 1,
+      "api": "https://api.apibdzy.com/api.php/provide/vod?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
       "key": "U酷资源風",
       "name": "影视 • 尤酷[直连]",
       "type": 1,
@@ -87,10 +96,10 @@
       "filterable": 1
     },
     {
-      "key": "极速资源",
-      "name": "影视 • 极速[直连]",
+      "key": "暴風",
+      "name": "影视 • 暴風[直连]",
       "type": 1,
-      "api": "https://jszyapi.com/api.php/provide/vod/?ac=list",
+      "api": "https://bfzyapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -106,10 +115,10 @@
       "playerType": 2
     },
     {
-      "key": "暴風",
-      "name": "影视 • 暴風[直连]",
+      "key": "非凡",
+      "name": "影视 • 非凡[直连]",
       "type": 1,
-      "api": "https://bfzyapi.com/api.php/provide/vod/?ac=list",
+      "api": "http://ffzy.tv/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -1413,17 +1422,6 @@
       "filterable": 0,
       "ext": "http://我不是.摸鱼儿.top/json/mogg.json",
       "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;b752cad81649bf070c934c423c3a1b86"
-    },
-    {
-      "key": "UcXmV2",
-      "name": "🐂小二资源┃4K弹幕",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "http://我不是.摸鱼儿.top/json/ex.json",
-      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;b752cad81649bf070c934c423c3a1b86"
     }
   ],
   "lives": [
@@ -1648,8 +1646,8 @@
     "其他"
   ],
   "stats": {
-    "channels": 596,
-    "streams": 927,
+    "channels": 605,
+    "streams": 939,
     "sites": 150,
     "sources_ok": 10,
     "sources_failed": 0
