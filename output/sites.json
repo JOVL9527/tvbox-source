@@ -1,7 +1,7 @@
 {
   "name": "我的 TVBox 点播配置",
-  "version": "2026-11-10 04:17:13",
-  "update_time": "2026-11-10 04:17:13",
+  "version": "2026-11-10 11:54:41",
+  "update_time": "2026-11-10 11:54:41",
   "spider": "https://raw.githubusercontent.com/qist/tvbox/master/jar/spider.jar;md5;2fe5d9e9b6a9cb76f1d1dd3d8b68290d",
   "sites": [
     {
@@ -50,10 +50,10 @@
       "filterable": 1
     },
     {
-      "key": "非凡",
-      "name": "影视 • 非凡[直连]",
+      "key": "率率",
+      "name": "影视 • 率率[直连]",
       "type": 1,
-      "api": "http://ffzy.tv/api.php/provide/vod/",
+      "api": "https://suoniapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -68,6 +68,15 @@
       "filterable": 1
     },
     {
+      "key": "百度",
+      "name": "百度",
+      "type": 1,
+      "api": "https://api.apibdzy.com/api.php/provide/vod?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
       "key": "天涯采集",
       "name": "影视 • 天涯",
       "type": 1,
@@ -78,22 +87,13 @@
       "playerType": 2
     },
     {
-      "key": "率率",
-      "name": "影视 • 率率[直连]",
+      "key": "非凡",
+      "name": "影视 • 非凡[直连]",
       "type": 1,
-      "api": "https://suoniapi.com/api.php/provide/vod/?ac=list",
+      "api": "http://ffzy.tv/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
-    },
-    {
-      "key": "百度",
-      "name": "百度",
-      "type": 1,
-      "api": "https://api.apibdzy.com/api.php/provide/vod?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
     },
     {
       "key": "建安采集",
