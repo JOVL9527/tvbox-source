@@ -1,8 +1,8 @@
 {
   "name": "我的 TVBox 点播配置",
-  "version": "2026-11-11 09:36:07",
-  "update_time": "2026-11-11 09:36:07",
-  "spider": "https://raw.githubusercontent.com/qist/tvbox/master/jar/spider.jar;md5;9f7227651023177d2a036830180add15",
+  "version": "2026-11-12 01:33:22",
+  "update_time": "2026-11-12 01:33:22",
+  "spider": "https://raw.githubusercontent.com/qist/tvbox/master/jar/spider.jar;md5;c25d34b0cfc044cd1ab3f225097ea7fd",
   "sites": [
     {
       "key": "电影天堂采集",
@@ -50,10 +50,10 @@
       "filterable": 1
     },
     {
-      "key": "非凡",
-      "name": "影视 • 非凡[直连]",
+      "key": "极速资源",
+      "name": "影视 • 极速[直连]",
       "type": 1,
-      "api": "http://ffzy.tv/api.php/provide/vod/",
+      "api": "https://jszyapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -67,33 +67,6 @@
       "quickSearch": 1,
       "filterable": 1,
       "playerType": 2
-    },
-    {
-      "key": "极速资源",
-      "name": "影视 • 极速[直连]",
-      "type": 1,
-      "api": "https://jszyapi.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "百度",
-      "name": "百度",
-      "type": 1,
-      "api": "https://api.apibdzy.com/api.php/provide/vod?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "U酷资源風",
-      "name": "影视 • 尤酷[直连]",
-      "type": 1,
-      "api": "https://api.ukuapi.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
     },
     {
       "key": "率率",
@@ -113,6 +86,24 @@
       "quickSearch": 1,
       "filterable": 1,
       "playerType": 2
+    },
+    {
+      "key": "U酷资源風",
+      "name": "影视 • 尤酷[直连]",
+      "type": 1,
+      "api": "https://api.ukuapi.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "百度",
+      "name": "百度",
+      "type": 1,
+      "api": "https://api.apibdzy.com/api.php/provide/vod?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
     },
     {
       "key": "暴風",
@@ -262,6 +253,15 @@
       "quickSearch": 1,
       "filterable": 0,
       "ext": "https://raw.githubusercontent.com/qist/tvbox/master/{'url': 'http:/v.rbotv.cn'}"
+    },
+    {
+      "key": "米诺",
+      "name": "米诺 • APP",
+      "type": 3,
+      "api": "csp_AppMN",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
     },
     {
       "key": "快映fox",
@@ -667,6 +667,24 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "https://raw.githubusercontent.com/qist/tvbox/master/{'请求头': 'User-Agent$MOBILE_UA', '编码': 'UTF-8', '分类': '重生$1#穿越$2#爽剧$3#言情$4#都市$5#古装$6#悬疑$7#剧情$8', '分类url': 'https://www.mochadj.com/i/{cateId}-{catePg}.html'}"
+    },
+    {
+      "key": "懂片",
+      "name": "懂片 • 影视",
+      "type": 3,
+      "api": "csp_DongPian",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "杜北",
+      "name": "杜北 • 影视",
+      "type": 3,
+      "api": "csp_Dubk",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
     },
     {
       "key": "星辰影视",
@@ -1399,25 +1417,6 @@
       "api": "csp_YGPGuard",
       "searchable": 0,
       "quickSearch": 0,
-      "filterable": 1
-    },
-    {
-      "key": "玩偶",
-      "name": "♨️玩偶智能┃4K弹幕",
-      "type": 3,
-      "api": "csp_WoGGGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "{'Cloud-drive': 'TVBox/Cloud-drive.txt', 'from': '4k|auto', 'siteUrl': 'https://www.wogg.one/', 'danMu': '弹'}"
-    },
-    {
-      "key": "移动",
-      "name": "🌀移动急速┃4K纯净",
-      "type": 3,
-      "api": "csp_YD",
-      "searchable": 1,
-      "quickSearch": 1,
       "filterable": 1
     }
   ],
