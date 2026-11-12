@@ -1,8 +1,8 @@
 {
   "name": "我的 TVBox 点播配置",
-  "version": "2026-11-12 10:37:21",
-  "update_time": "2026-11-12 10:37:21",
-  "spider": "https://raw.githubusercontent.com/qist/tvbox/master/jar/spider.jar;md5;c25d34b0cfc044cd1ab3f225097ea7fd",
+  "version": "2026-11-13 01:49:24",
+  "update_time": "2026-11-13 01:49:24",
+  "spider": "https://raw.githubusercontent.com/qist/tvbox/master/jar/spider.jar;md5;a2928946eb00e5fee87663c94ae37bff",
   "sites": [
     {
       "key": "电影天堂采集",
@@ -50,19 +50,19 @@
       "filterable": 1
     },
     {
-      "key": "非凡",
-      "name": "影视 • 非凡[直连]",
+      "key": "极速资源",
+      "name": "影视 • 极速[直连]",
       "type": 1,
-      "api": "http://ffzy.tv/api.php/provide/vod/",
+      "api": "https://jszyapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
     },
     {
-      "key": "率率",
-      "name": "影视 • 率率[直连]",
+      "key": "U酷资源風",
+      "name": "影视 • 尤酷[直连]",
       "type": 1,
-      "api": "https://suoniapi.com/api.php/provide/vod/?ac=list",
+      "api": "https://api.ukuapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -87,24 +87,6 @@
       "playerType": 2
     },
     {
-      "key": "极速资源",
-      "name": "影视 • 极速[直连]",
-      "type": 1,
-      "api": "https://jszyapi.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "U酷资源風",
-      "name": "影视 • 尤酷[直连]",
-      "type": 1,
-      "api": "https://api.ukuapi.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "建安采集",
       "name": "影视 • 建安",
       "type": 1,
@@ -115,10 +97,28 @@
       "playerType": 2
     },
     {
+      "key": "率率",
+      "name": "影视 • 率率[直连]",
+      "type": 1,
+      "api": "https://suoniapi.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
       "key": "暴風",
       "name": "影视 • 暴風[直连]",
       "type": 1,
       "api": "https://bfzyapi.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "非凡",
+      "name": "影视 • 非凡[直连]",
+      "type": 1,
+      "api": "http://ffzy.tv/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -271,6 +271,15 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0
+    },
+    {
+      "key": "下饭",
+      "name": "下饭 • APP",
+      "type": 3,
+      "api": "csp_JuXiaFan",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
     },
     {
       "key": "快映fox",
@@ -1409,15 +1418,6 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "https://raw.githubusercontent.com/qist/tvbox/master/js/678.js"
-    },
-    {
-      "key": "豆豆",
-      "name": "♨️网盘升级┃全速启动",
-      "type": 3,
-      "api": "csp_DouDouGuard",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0
     }
   ],
   "parses": [
