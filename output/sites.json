@@ -1,7 +1,7 @@
 {
   "name": "我的 TVBox 点播配置",
-  "version": "2026-11-15 09:27:40",
-  "update_time": "2026-11-15 09:27:40",
+  "version": "2026-11-16 00:42:47",
+  "update_time": "2026-11-16 00:42:47",
   "spider": "https://raw.githubusercontent.com/qist/tvbox/master/jar/spider.jar;md5;cbe016eb3cb002ae62058604843f5106",
   "sites": [
     {
@@ -68,15 +68,6 @@
       "filterable": 1
     },
     {
-      "key": "极速资源",
-      "name": "影视 • 极速[直连]",
-      "type": 1,
-      "api": "https://jszyapi.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "百度",
       "name": "百度",
       "type": 1,
@@ -86,6 +77,15 @@
       "filterable": 0
     },
     {
+      "key": "极速资源",
+      "name": "影视 • 极速[直连]",
+      "type": 1,
+      "api": "https://jszyapi.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
       "key": "U酷资源風",
       "name": "影视 • 尤酷[直连]",
       "type": 1,
@@ -93,6 +93,16 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
+    },
+    {
+      "key": "天涯采集",
+      "name": "影视 • 天涯",
+      "type": 1,
+      "api": "http://tyyszy.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2
     },
     {
       "key": "暴風",
@@ -108,16 +118,6 @@
       "name": "影视 • 建安",
       "type": 1,
       "api": "http://154.219.117.232:9981/jacloudapi.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "playerType": 2
-    },
-    {
-      "key": "天涯采集",
-      "name": "影视 • 天涯",
-      "type": 1,
-      "api": "http://tyyszy.com/api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,

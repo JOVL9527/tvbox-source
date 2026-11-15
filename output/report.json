@@ -1,12 +1,12 @@
 {
-  "run_at": "2026-11-15 09:27:40",
-  "elapsed_sec": 123.2,
+  "run_at": "2026-11-16 00:42:47",
+  "elapsed_sec": 124.1,
   "live": {
-    "raw": 4952,
+    "raw": 4922,
     "after_filter": 3000,
-    "verified": 944,
-    "channels": 605,
-    "streams_out": 921,
+    "verified": 931,
+    "channels": 580,
+    "streams_out": 907,
     "sources_ok": 10,
     "sources_failed": [],
     "category_counts": {
@@ -16,15 +16,15 @@
       "港澳台": 21,
       "体育": 4,
       "影视": 48,
-      "少儿": 4,
+      "少儿": 3,
       "纪录": 6,
       "音乐": 2,
-      "财经": 9,
-      "教育": 3,
+      "财经": 8,
+      "教育": 4,
       "国际": 5,
-      "其他": 342
+      "其他": 318
     },
-    "hit_rate": "944/3000"
+    "hit_rate": "931/3000"
   },
   "vod": {
     "sites_out": 150,
