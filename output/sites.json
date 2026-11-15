@@ -1,7 +1,7 @@
 {
   "name": "我的 TVBox 点播配置",
-  "version": "2026-11-15 00:15:10",
-  "update_time": "2026-11-15 00:15:10",
+  "version": "2026-11-15 09:27:40",
+  "update_time": "2026-11-15 09:27:40",
   "spider": "https://raw.githubusercontent.com/qist/tvbox/master/jar/spider.jar;md5;cbe016eb3cb002ae62058604843f5106",
   "sites": [
     {
@@ -50,15 +50,6 @@
       "filterable": 1
     },
     {
-      "key": "率率",
-      "name": "影视 • 率率[直连]",
-      "type": 1,
-      "api": "https://suoniapi.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "非凡",
       "name": "影视 • 非凡[直连]",
       "type": 1,
@@ -68,14 +59,22 @@
       "filterable": 1
     },
     {
-      "key": "天涯采集",
-      "name": "影视 • 天涯",
+      "key": "率率",
+      "name": "影视 • 率率[直连]",
       "type": 1,
-      "api": "http://tyyszy.com/api.php/provide/vod",
+      "api": "https://suoniapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
-      "playerType": 2
+      "filterable": 1
+    },
+    {
+      "key": "极速资源",
+      "name": "影视 • 极速[直连]",
+      "type": 1,
+      "api": "https://jszyapi.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
     },
     {
       "key": "百度",
@@ -96,10 +95,10 @@
       "filterable": 1
     },
     {
-      "key": "极速资源",
-      "name": "影视 • 极速[直连]",
+      "key": "暴風",
+      "name": "影视 • 暴風[直连]",
       "type": 1,
-      "api": "https://jszyapi.com/api.php/provide/vod/?ac=list",
+      "api": "https://bfzyapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -115,13 +114,14 @@
       "playerType": 2
     },
     {
-      "key": "暴風",
-      "name": "影视 • 暴風[直连]",
+      "key": "天涯采集",
+      "name": "影视 • 天涯",
       "type": 1,
-      "api": "https://bfzyapi.com/api.php/provide/vod/?ac=list",
+      "api": "http://tyyszy.com/api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "playerType": 2
     },
     {
       "key": "量子",
