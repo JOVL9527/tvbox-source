@@ -1,8 +1,8 @@
 {
   "name": "我的 TVBox 点播配置",
-  "version": "2026-11-16 09:30:21",
-  "update_time": "2026-11-16 09:30:21",
-  "spider": "https://raw.githubusercontent.com/qist/tvbox/master/jar/spider.jar;md5;cbe016eb3cb002ae62058604843f5106",
+  "version": "2026-11-17 03:57:26",
+  "update_time": "2026-11-17 03:57:26",
+  "spider": "https://raw.githubusercontent.com/qist/tvbox/master/jar/spider.jar;md5;85c2c38467d85bb4e98c426af4519eab",
   "sites": [
     {
       "key": "电影天堂采集",
@@ -50,52 +50,6 @@
       "filterable": 1
     },
     {
-      "key": "天涯采集",
-      "name": "影视 • 天涯",
-      "type": 1,
-      "api": "http://tyyszy.com/api.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "playerType": 2
-    },
-    {
-      "key": "百度",
-      "name": "百度",
-      "type": 1,
-      "api": "https://api.apibdzy.com/api.php/provide/vod?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "率率",
-      "name": "影视 • 率率[直连]",
-      "type": 1,
-      "api": "https://suoniapi.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "极速资源",
-      "name": "影视 • 极速[直连]",
-      "type": 1,
-      "api": "https://jszyapi.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "U酷资源風",
-      "name": "影视 • 尤酷[直连]",
-      "type": 1,
-      "api": "https://api.ukuapi.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "建安采集",
       "name": "影视 • 建安",
       "type": 1,
@@ -115,6 +69,15 @@
       "filterable": 1
     },
     {
+      "key": "率率",
+      "name": "影视 • 率率[直连]",
+      "type": 1,
+      "api": "https://suoniapi.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
       "key": "非凡",
       "name": "影视 • 非凡[直连]",
       "type": 1,
@@ -124,10 +87,47 @@
       "filterable": 1
     },
     {
+      "key": "百度",
+      "name": "百度",
+      "type": 1,
+      "api": "https://api.apibdzy.com/api.php/provide/vod?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "天涯采集",
+      "name": "影视 • 天涯",
+      "type": 1,
+      "api": "http://tyyszy.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2
+    },
+    {
+      "key": "极速资源",
+      "name": "影视 • 极速[直连]",
+      "type": 1,
+      "api": "https://jszyapi.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
       "key": "量子",
       "name": "影视 • 量子[直连]",
       "type": 1,
       "api": "https://cj.lziapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "U酷资源風",
+      "name": "影视 • 尤酷[直连]",
+      "type": 1,
+      "api": "https://api.ukuapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
