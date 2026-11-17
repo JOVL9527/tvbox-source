@@ -1,8 +1,8 @@
 {
   "name": "我的 TVBox 点播配置",
-  "version": "2026-11-17 12:16:20",
-  "update_time": "2026-11-17 12:16:20",
-  "spider": "https://raw.githubusercontent.com/qist/tvbox/master/jar/spider.jar;md5;85c2c38467d85bb4e98c426af4519eab",
+  "version": "2026-11-18 02:52:58",
+  "update_time": "2026-11-18 02:52:58",
+  "spider": "https://raw.githubusercontent.com/qist/tvbox/master/jar/spider.jar;md5;decb609b673019e18512dc3a96b6a252",
   "sites": [
     {
       "key": "电影天堂采集",
@@ -59,46 +59,10 @@
       "filterable": 1
     },
     {
-      "key": "百度",
-      "name": "百度",
-      "type": 1,
-      "api": "https://api.apibdzy.com/api.php/provide/vod?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "率率",
-      "name": "影视 • 率率[直连]",
-      "type": 1,
-      "api": "https://suoniapi.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "极速资源",
       "name": "影视 • 极速[直连]",
       "type": 1,
       "api": "https://jszyapi.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "暴風",
-      "name": "影视 • 暴風[直连]",
-      "type": 1,
-      "api": "https://bfzyapi.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "U酷资源風",
-      "name": "影视 • 尤酷[直连]",
-      "type": 1,
-      "api": "https://api.ukuapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -114,6 +78,33 @@
       "playerType": 2
     },
     {
+      "key": "百度",
+      "name": "百度",
+      "type": 1,
+      "api": "https://api.apibdzy.com/api.php/provide/vod?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "U酷资源風",
+      "name": "影视 • 尤酷[直连]",
+      "type": 1,
+      "api": "https://api.ukuapi.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "率率",
+      "name": "影视 • 率率[直连]",
+      "type": 1,
+      "api": "https://suoniapi.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
       "key": "建安采集",
       "name": "影视 • 建安",
       "type": 1,
@@ -122,6 +113,15 @@
       "quickSearch": 1,
       "filterable": 1,
       "playerType": 2
+    },
+    {
+      "key": "暴風",
+      "name": "影视 • 暴風[直连]",
+      "type": 1,
+      "api": "https://bfzyapi.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
     },
     {
       "key": "量子",
@@ -264,10 +264,19 @@
       "ext": "https://raw.githubusercontent.com/qist/tvbox/master/{'url': 'http:/v.rbotv.cn'}"
     },
     {
-      "key": "米诺",
-      "name": "米诺 • APP",
+      "key": "云播",
+      "name": "云播 • APP",
       "type": 3,
-      "api": "csp_AppMN",
+      "api": "csp_AppYB",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "未来",
+      "name": "未来 • APP",
+      "type": 3,
+      "api": "csp_AppWL",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0
@@ -1408,16 +1417,6 @@
       "searchable": 0,
       "quickSearch": 1,
       "filterable": 0
-    },
-    {
-      "key": "闪雷",
-      "name": "闪雷 • MP4",
-      "type": 3,
-      "api": "https://raw.githubusercontent.com/qist/tvbox/master/lib/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://raw.githubusercontent.com/qist/tvbox/master/js/678.js"
     }
   ],
   "parses": [
