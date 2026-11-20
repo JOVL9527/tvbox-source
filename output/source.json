@@ -1,8 +1,8 @@
 {
   "name": "我的 TVBox 配置源",
-  "version": "2026-11-20 10:46:24",
-  "update_time": "2026-11-20 10:46:24",
-  "spider": "https://raw.githubusercontent.com/qist/tvbox/master/jar/spider.jar;md5;decb609b673019e18512dc3a96b6a252",
+  "version": "2026-11-21 02:07:25",
+  "update_time": "2026-11-21 02:07:25",
+  "spider": "https://raw.githubusercontent.com/qist/tvbox/master/jar/spider.jar;md5;4c6b37a5405e96552288e0e3fef6c195",
   "sites": [
     {
       "key": "电影天堂采集",
@@ -50,6 +50,15 @@
       "filterable": 1
     },
     {
+      "key": "非凡",
+      "name": "影视 • 非凡[直连]",
+      "type": 1,
+      "api": "http://ffzy.tv/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
       "key": "率率",
       "name": "影视 • 率率[直连]",
       "type": 1,
@@ -87,6 +96,15 @@
       "filterable": 0
     },
     {
+      "key": "U酷资源風",
+      "name": "影视 • 尤酷[直连]",
+      "type": 1,
+      "api": "https://api.ukuapi.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
       "key": "建安采集",
       "name": "影视 • 建安",
       "type": 1,
@@ -101,15 +119,6 @@
       "name": "影视 • 暴風[直连]",
       "type": 1,
       "api": "https://bfzyapi.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "U酷资源風",
-      "name": "影视 • 尤酷[直连]",
-      "type": 1,
-      "api": "https://api.ukuapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -337,6 +346,16 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
+    },
+    {
+      "key": "师兄",
+      "name": "师兄 • APP",
+      "type": 3,
+      "api": "csp_AppV7",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "{'host': 'http://app2.dsx.ac/ndsx.php', 'version': '4.0.6', 'version_number': '4006', 'pk_id': 'com.qdsj.zxt.hzjc', 'build_time': '1790053427039', 'sign_md5': '56a4bb80bd67422e9c5b48f003d445c8', 'apk_length': '59954699', 'platform': '', 'platform_version': 'TP1A.220624.014', 'user_agent': 'Dart/3.11 (dart:io)', 'private_key': 'MIICdgIBADANBgkqhkiG9w0BAQEFAASCAmAwggJcAgEAAoGBAO9omsi+ys7fmBH3w1d0DfvRAQlj0wLB1BI3Xsb9WSiu4lEc1Me+XubnzTxaQPCBbnuZURerRrO981n9GhsQkDcWmtW+X1mpCllOWt8bbnWwKPsHqemRFxncDWE/d0nA9yrZn6nLVy/J7DJ3cVJlIs9bNLArqEiR8KVrAf1PNSLXAgMBAAECgYBGPn3z2q8s5cP7uaOSHFYiBZ/1PlniXDa6JY7ked9YJX/35qqz9LJps6evRpf5OTDOiRyXAkUbZedqBu5K9KArSGVyxp/Vym4b0siEVeM8qq9Gbf74lHPH+L+X/NmXemydwZHR1lU9PiLJVMsh8o6aAazkB8ijZcsNMyYZUSH36QJBAPvHq511Uz45lx5BtVSZClcUnqPRFSmNnRdjATikDzFTObemnGJU3eL/7VIPWtjEj9LvGP/WyX6gyo1zKc8BRtUCQQDza9oFnSmMHPkvrll/zMxcy3FeOTW0hctBhdIMbBmjJJyhlfTmBOvxwm8I91F05ydkSZ1yLuLhAjLxbjqs2fD7AkB/KOHQvW+UTqu22ULGfiCNyFkyrSc9/EqphBQa0ijmJX1R9nCm7Ou/eLgYKK8eKW/l/WGn3IeZT4XdGJu185QdAkBthqmivQRktuSoP5qlllCdsCxiaPtxLoI2CTBpxnoCngab7g0zMiO3s/Sh5CYSo69lwHnHVrFe7M5fM2nTPHzhAkEAiJETUvYFwCVKNGTYMzUg7v3QblqYXB+IhzcU37sHZOn6a46V5eJDadavIvuEmoxJHWTybi+1ZkN7LeUUg4ylCw=='}"
     },
     {
       "key": "剧圈99",
@@ -758,7 +777,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://cz01.vip"
+      "ext": "https://cz01.vip/"
     },
     {
       "key": "金牌影视",
@@ -768,7 +787,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://y2s52n7.com,https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"
+      "ext": "https://www.sunnafh.com,https://m.sizhengxt.com,https://m.jiabaide.cn"
     },
     {
       "key": "骚火影视",
@@ -819,7 +838,7 @@
       "ext": "{'请求头': 'User-Agent$MOBILE_UA', '编码': 'UTF-8', '主页url': 'https://dora.xiaoxinbk.com/', '数组': 'class=\"card-img-bili\"&&</a>', '标题': 'alt=\"&&\"', '图片': 'data-url=\"&&\"', '链接': 'href=\"&&\"', '线路标题': 'mt-0\">&&</h3>', '播放数组': 'class=\"card-body button-list\"&&</div>', '播放列表': '<a&&a>', '播放链接': 'href=\"&&\"', '播放标题': '>&&</', '分类url': 'https://www.dora-video.cn/search/sy/?niandai={year}&cat={class}&tag={cateId}&gaojijiansuo=1&zhuangtai={by}', '分类': '全部$0#动画$20#剧场版$21#MV$22#预告片$23#直播$27#同人$25#民间$26#目录$28#中篇$30', '剧情': '哆啦A梦新番$1#新哆啦A梦 台湾配音$2#哆啦A梦剧场版$3#最新预告片$6#剧场版集合$7#哆啦A梦MV$4#哆啦A梦七小子集合$11#生日特别篇$19#哆啦A梦生日特别篇$12#哆啦美生日特别篇$14#大雄生日特别篇$13#静香生日特别篇$15#胖虎生日特别篇$16#小夫生日特别篇$17#24小时直播$24#哆啦A梦中篇附映$29#哆啦A梦大山版 - 哆啦a梦1979版国语旧版 - 旧版$31#哆啦A梦大山修复&补档区$32#藤子·F·不二雄【其它动画】$33', '排序': '全部$0#完结$2#连载$1#待定$-1'}"
     },
     {
-      "key": "赏月",
+      "key": "赏月动漫",
       "name": "赏月 • 动漫",
       "type": 3,
       "api": "csp_AnimeTsukimi",
@@ -828,7 +847,7 @@
       "filterable": 1
     },
     {
-      "key": "稀饭",
+      "key": "稀饭动漫",
       "name": "稀饭 • 动漫",
       "type": 3,
       "api": "csp_AnimeXifan",
@@ -859,6 +878,15 @@
       "name": "花子 • 动漫",
       "type": 3,
       "api": "csp_AnimeHuazi",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "漫国动漫",
+      "name": "漫国 • 动漫",
+      "type": 3,
+      "api": "csp_AnimeGHG",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -1389,35 +1417,6 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "https://raw.githubusercontent.com/qist/tvbox/master/js/酷6网.js"
-    },
-    {
-      "key": "drpy_js_网易公版影像",
-      "name": "聚合 • 网易公版",
-      "type": 3,
-      "api": "https://raw.githubusercontent.com/qist/tvbox/master/lib/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://raw.githubusercontent.com/qist/tvbox/master/js/网易公版影像.js"
-    },
-    {
-      "key": "push_agent",
-      "name": "手机｜推送",
-      "type": 3,
-      "api": "csp_Push",
-      "searchable": 0,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "闪雷",
-      "name": "闪雷 • MP4",
-      "type": 3,
-      "api": "https://raw.githubusercontent.com/qist/tvbox/master/lib/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://raw.githubusercontent.com/qist/tvbox/master/js/678.js"
     }
   ],
   "lives": [
@@ -1642,8 +1641,8 @@
     "其他"
   ],
   "stats": {
-    "channels": 538,
-    "streams": 854,
+    "channels": 592,
+    "streams": 908,
     "sites": 150,
     "sources_ok": 10,
     "sources_failed": 0
