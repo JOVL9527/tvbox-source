@@ -1,7 +1,7 @@
 {
   "name": "我的 TVBox 配置源",
-  "version": "2026-11-22 01:01:55",
-  "update_time": "2026-11-22 01:01:55",
+  "version": "2026-11-22 09:46:34",
+  "update_time": "2026-11-22 09:46:34",
   "spider": "https://raw.githubusercontent.com/qist/tvbox/master/jar/spider.jar;md5;16e7a6d79af111b1a67a04769e877fb7",
   "sites": [
     {
@@ -50,13 +50,22 @@
       "filterable": 1
     },
     {
-      "key": "非凡",
-      "name": "影视 • 非凡[直连]",
+      "key": "极速资源",
+      "name": "影视 • 极速[直连]",
       "type": 1,
-      "api": "http://ffzy.tv/api.php/provide/vod/",
+      "api": "https://jszyapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
+    },
+    {
+      "key": "百度",
+      "name": "百度",
+      "type": 1,
+      "api": "https://api.apibdzy.com/api.php/provide/vod?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
     },
     {
       "key": "天涯采集",
@@ -73,24 +82,6 @@
       "name": "影视 • 尤酷[直连]",
       "type": 1,
       "api": "https://api.ukuapi.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "百度",
-      "name": "百度",
-      "type": 1,
-      "api": "https://api.apibdzy.com/api.php/provide/vod?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "极速资源",
-      "name": "影视 • 极速[直连]",
-      "type": 1,
-      "api": "https://jszyapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -122,6 +113,15 @@
       "quickSearch": 1,
       "filterable": 1,
       "playerType": 2
+    },
+    {
+      "key": "非凡",
+      "name": "影视 • 非凡[直连]",
+      "type": 1,
+      "api": "http://ffzy.tv/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
     },
     {
       "key": "量子",
@@ -1642,8 +1642,8 @@
     "其他"
   ],
   "stats": {
-    "channels": 581,
-    "streams": 897,
+    "channels": 591,
+    "streams": 916,
     "sites": 150,
     "sources_ok": 10,
     "sources_failed": 0
