@@ -1,7 +1,7 @@
 {
   "name": "我的 TVBox 配置源",
-  "version": "2026-11-23 10:05:46",
-  "update_time": "2026-11-23 10:05:46",
+  "version": "2026-11-24 05:50:18",
+  "update_time": "2026-11-24 05:50:18",
   "spider": "https://raw.githubusercontent.com/qist/tvbox/master/jar/spider.jar;md5;efdb2c1d9a2e8c26e5a74ba5f53dfc56",
   "sites": [
     {
@@ -78,15 +78,6 @@
       "playerType": 2
     },
     {
-      "key": "百度",
-      "name": "百度",
-      "type": 1,
-      "api": "https://api.apibdzy.com/api.php/provide/vod?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
       "key": "率率",
       "name": "影视 • 率率[直连]",
       "type": 1,
@@ -94,6 +85,15 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
+    },
+    {
+      "key": "百度",
+      "name": "百度",
+      "type": 1,
+      "api": "https://api.apibdzy.com/api.php/provide/vod?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
     },
     {
       "key": "建安采集",
@@ -1642,8 +1642,8 @@
     "其他"
   ],
   "stats": {
-    "channels": 594,
-    "streams": 915,
+    "channels": 595,
+    "streams": 917,
     "sites": 150,
     "sources_ok": 10,
     "sources_failed": 0
