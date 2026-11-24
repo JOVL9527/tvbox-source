@@ -1,8 +1,8 @@
 {
   "name": "我的 TVBox 配置源",
-  "version": "2026-11-24 05:50:18",
-  "update_time": "2026-11-24 05:50:18",
-  "spider": "https://raw.githubusercontent.com/qist/tvbox/master/jar/spider.jar;md5;efdb2c1d9a2e8c26e5a74ba5f53dfc56",
+  "version": "2026-11-24 13:41:59",
+  "update_time": "2026-11-24 13:41:59",
+  "spider": "https://raw.githubusercontent.com/qist/tvbox/master/jar/spider.jar;md5;3443259a2e4be3f96f73175cefb11090",
   "sites": [
     {
       "key": "电影天堂采集",
@@ -68,6 +68,15 @@
       "filterable": 1
     },
     {
+      "key": "率率",
+      "name": "影视 • 率率[直连]",
+      "type": 1,
+      "api": "https://suoniapi.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
       "key": "天涯采集",
       "name": "影视 • 天涯",
       "type": 1,
@@ -78,10 +87,10 @@
       "playerType": 2
     },
     {
-      "key": "率率",
-      "name": "影视 • 率率[直连]",
+      "key": "U酷资源風",
+      "name": "影视 • 尤酷[直连]",
       "type": 1,
-      "api": "https://suoniapi.com/api.php/provide/vod/?ac=list",
+      "api": "https://api.ukuapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -104,15 +113,6 @@
       "quickSearch": 1,
       "filterable": 1,
       "playerType": 2
-    },
-    {
-      "key": "U酷资源風",
-      "name": "影视 • 尤酷[直连]",
-      "type": 1,
-      "api": "https://api.ukuapi.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
     },
     {
       "key": "暴風",
@@ -479,16 +479,6 @@
       "ext": "https://raw.githubusercontent.com/qist/tvbox/master/{'site': ['https:/123.666291.xyz', 'https:/666.666291.xyz', 'https:/www.muou.site', 'https:/www.muou.asia']}"
     },
     {
-      "key": "闪电",
-      "name": "闪电 • 4K",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://raw.githubusercontent.com/qist/tvbox/master/{'site': ['http:/shandian.blog']}"
-    },
-    {
       "key": "蜡笔",
       "name": "蜡笔 • 4K",
       "type": 3,
@@ -497,6 +487,16 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "https://raw.githubusercontent.com/qist/tvbox/master/{'site': ['https:/www.fmcf.fun', 'https:/www.mmpanpan.site', 'http:/tvpanpan.site', 'http:/www.tvpanpan.site']}"
+    },
+    {
+      "key": "闪电",
+      "name": "闪电 • 4K",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://raw.githubusercontent.com/qist/tvbox/master/{'site': ['http:/oo.sduc.site', 'http:/sd.sduc.site']}"
     },
     {
       "key": "多多",
@@ -1642,8 +1642,8 @@
     "其他"
   ],
   "stats": {
-    "channels": 595,
-    "streams": 917,
+    "channels": 596,
+    "streams": 905,
     "sites": 150,
     "sources_ok": 10,
     "sources_failed": 0
