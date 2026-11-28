@@ -1,7 +1,7 @@
 {
   "name": "我的 TVBox 点播配置",
-  "version": "2026-11-28 03:15:47",
-  "update_time": "2026-11-28 03:15:47",
+  "version": "2026-11-28 11:39:34",
+  "update_time": "2026-11-28 11:39:34",
   "spider": "https://raw.githubusercontent.com/qist/tvbox/master/jar/spider.jar;md5;519166f3489c55176b2ab7586c3e7384",
   "sites": [
     {
@@ -50,14 +50,13 @@
       "filterable": 1
     },
     {
-      "key": "天涯采集",
-      "name": "影视 • 天涯",
+      "key": "非凡",
+      "name": "影视 • 非凡[直连]",
       "type": 1,
-      "api": "http://tyyszy.com/api.php/provide/vod",
+      "api": "http://ffzy.tv/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
-      "playerType": 2
+      "filterable": 1
     },
     {
       "key": "百度",
@@ -78,10 +77,10 @@
       "filterable": 1
     },
     {
-      "key": "建安采集",
-      "name": "影视 • 建安",
+      "key": "天涯采集",
+      "name": "影视 • 天涯",
       "type": 1,
-      "api": "http://154.219.117.232:9981/jacloudapi.php/provide/vod",
+      "api": "http://tyyszy.com/api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -97,19 +96,20 @@
       "filterable": 1
     },
     {
+      "key": "建安采集",
+      "name": "影视 • 建安",
+      "type": 1,
+      "api": "http://154.219.117.232:9981/jacloudapi.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2
+    },
+    {
       "key": "暴風",
       "name": "影视 • 暴風[直连]",
       "type": 1,
       "api": "https://bfzyapi.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "非凡",
-      "name": "影视 • 非凡[直连]",
-      "type": 1,
-      "api": "http://ffzy.tv/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
